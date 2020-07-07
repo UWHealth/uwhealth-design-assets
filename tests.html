@@ -8,18 +8,17 @@
     </title>
     <link rel="stylesheet" href="style.css">
     <style>
-        img {
+        img, svg {
             display: block;
             width: 100%;
-            resize: horizontal;
             max-width: 100%;
         }
         main {
-            max-width: 960px;
+            max-width: 90%;
             margin: auto;
         }
         .resize {
-            resize: horizontal;
+            resize: both;
             overflow: hidden;
             width: 64px;
             margin: auto;
@@ -29,6 +28,11 @@
             justify-content: center;
             padding: .5rem;
             border-radius: var(--rc);
+        }
+        .resize--full {
+            padding: 0;
+            width: 100%;
+            overflow: auto;
         }
         article {
             display: flex;
@@ -63,6 +67,47 @@
             <section>
                 
             </section>
+        </section>
+        <section>
+            <article>
+                <div class="resize resize--full" style="width:100%;">
+                    <svg class="gfx-generic-hero" 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        viewBox="0 0 1400 1064"
+                        preserveAspectRatio="none">
+                        
+                        <svg class="hero__movable gfx-generic-hero__bottom" 
+                            viewBox="0 0 1400 1064" width="100%" height="100%"
+                            preserveAspectRatio="xMaxYMin slice">
+
+                            <polygon class="gfx-generic-hero__red-v fill--red-v" 
+                                points="625.09 -0.52 -52.53 1178.52 625.09 1178.52 625.09 1178.57 1462.94 1178.57 1462.94 -0.52 625.09 -0.52" 
+                                fill="#ee2842"/>
+                            <path class="gfx-generic-hero__red fill--red" 
+                                d="M1462.94,662.17H646.46a258.78,258.78,0,0,0-224.1,129.38l-223.42,387h1264Z" 
+                                fill="#c5050c"/>
+                            <path class="hero__toggle gfx-generic-hero__red-v fill--red-v" 
+                                d="M1404.92,875h-597a159,159,0,0,0-137.74,79.52l-129.31,224h864.05Z" 
+                                fill="#ee2842"/>
+                        </svg>
+
+                        <svg viewBox="0 0 1400 804" width="100%" height="804"
+                            preserveAspectRatio="xMinYMin slice"
+                            class="hero__fixed gfx-generic-hero__top">
+                            
+                            <polygon class="gfx-generic-hero__blue-l fill--blue-l" 
+                                points="475.63 -642.8 475.63 -642.8 -42.97 -642.8 475.63 259.55 1463.74 259.55 1463.74 -642.8 475.63 -642.8" 
+                                fill="#e2f7fa"/>
+                            <path class="gfx-generic-hero__blue-d fill--blue-d" 
+                                d="M475.63,259.55,771.08,771.28A65.76,65.76,0,0,0,828,804.16h635.71V259.55Z" 
+                                fill="#001964"/>
+                            <path class="gfx-generic-hero__blue fill--blue" 
+                                d="M475.63,259.55,641.53-27.79a83.07,83.07,0,0,1,72-41.54h750.41V259.55Z" 
+                                fill="#065dba"/>
+                        </svg>
+                    </svg>                      
+                </div>
+            </article>
         </section>
     </main>
 </body>
