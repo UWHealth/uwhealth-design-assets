@@ -1,0 +1,6 @@
+<svg class="gfx-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <rect class="gfx-arrow__line" 
+      y="30.5" width="54" height="3"/>
+    <polygon class="gfx-arrow__head" 
+      points="37.91 14.19 36 16.5 53.57 32 36 47.5 37.91 49.81 61.13 32 37.91 14.19"/>
+</svg>
