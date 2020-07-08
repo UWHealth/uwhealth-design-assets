@@ -1,0 +1,28 @@
+{
+  "name": "uwhealth-design-assets",
+  "version": "0.0.1",
+  "description": "Central location for uwhealth.org design assets",
+  "main": "tests.html",
+  "scripts": {
+    "start": "node build/build-and-watch.js",
+    "build": "node build/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UWHealth/uwhealth-design-assets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UWHealth/uwhealth-design-assets/issues"
+  },
+  "homepage": "https://github.com/UWHealth/uwhealth-design-assets#readme",
+  "devDependencies": {
+    "chokidar": "^3.4.0",
+    "colors": "^1.4.0",
+    "posthtml": "^0.13.1",
+    "posthtml-inline-svg": "^0.2.0",
+    "posthtml-modules": "^0.6.2"
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        UW Health icons and graphics
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>UW Health icons and graphics</h1>
+        </header>
+        <!-- row -->
+        <section>
+            <Include href="build/gfx.module.html" locals='{"path": "icons/search/icon_search.svg"}'>Search Icon</Include>
+            <Include href="build/gfx.module.html" 
+                locals='{"path": "graphics/active/gfx_active.svg", "aStyle": "min-width:32px; max-height: 4px; min-height: 4px;"}'>
+                Active indicator
+            </Include>
+            <Include href="build/gfx.module.html" 
+                locals='{"path": "graphics/hex-bar/gfx_hex-bar.svg", "style": "min-width:64px;"}'>
+                Hex Bar
+            </Include>
+            <Include href="build/gfx.module.html" 
+                locals='{"path": "graphics/arrow/gfx_arrow.svg", "style": "min-width:48px;"}'>
+                Arrow
+            </Include>
+        </section>
+        <!-- row -->
+        <section>
+            <Include href="build/gfx.module.html" 
+                locals='{"path": "graphics/logos/gfx_uwhealth-logo.svg", "style": "min-width:256px;"}'>
+                UW Health logo
+            </Include>
+        </section>
+        <!-- row -->
+        <section>
+            <Include href="build/gfx.module.html" 
+                locals='{"path": "graphics/hero/gfx_hero-generic.svg", "classes": "resize--full"}'>
+                Generic Hero
+            </Include>
+            <section></section>
+        </section>
+    </main>
+</body>
+</html>
