@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 24">
+  <g fill="#065dba" class="gfx-hex-bar">
+    <polygon id="gfx-hex-bar__right" points="56.13 7.49 50.93 7.49 48.33 12 50.93 16.51 56.13 16.51 58.73 12 56.13 7.49"/>
+    <rect id="gfx-hex-bar__bar" x="2.25" y="11.75" width="55.7" height="0.5"/>
+    <polygon id="gfx-hex-bar__left" points="9.86 7.49 4.66 7.49 2.06 12 4.66 16.51 9.86 16.51 12.46 12 9.86 7.49"/>
+  </g>
+</svg>
