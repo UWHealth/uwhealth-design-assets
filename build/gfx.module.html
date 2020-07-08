@@ -3,8 +3,8 @@
         <h2>
             <content></content>
         </h2>
-        <div class="resize {{classes}}" style="{{ style }}">
-            <Asset src="../{{ path }}" style="{{ aStyle }}"></Asset>
+        <div class="resize {{ this.classes || ''}}" style="{{ this.style || '' }}">
+            <Asset src="../{{ path }}.svg" style="{{ this.aStyle || '' }}"></Asset>
         </div>
     </article>
 </section>

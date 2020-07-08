@@ -6,7 +6,7 @@
     <title>
         UW Health icons and graphics
     </title>
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -15,31 +15,41 @@
         </header>
         <!-- row -->
         <section>
-            <Include href="build/gfx.module.html" locals='{"path": "icons/search/icon_search.svg"}'>Search Icon</Include>
+            <Include href="build/gfx.module.html" locals='{"path": "icons/search/icon_search"}'>Search Icon</Include>
             <Include href="build/gfx.module.html" 
-                locals='{"path": "graphics/active/gfx_active.svg", "aStyle": "min-width:32px; max-height: 4px; min-height: 4px;"}'>
+                locals='{"path": "icons/sort/icon_sort", "style": "min-width:32px;"}'>
+                Sort Icon
+            </Include>
+        </section>
+        <section>
+            <Include href="build/gfx.module.html" 
+                locals='{"path": "graphics/active/gfx_active", "aStyle": "min-width:32px; max-height: 4px; min-height: 4px;"}'>
                 Active indicator
             </Include>
             <Include href="build/gfx.module.html" 
-                locals='{"path": "graphics/hex-bar/gfx_hex-bar.svg", "style": "min-width:64px;"}'>
+                locals='{"path": "graphics/hex-bar/gfx_hex-bar", "style": "min-width:64px;"}'>
                 Hex Bar
             </Include>
             <Include href="build/gfx.module.html" 
-                locals='{"path": "graphics/arrow/gfx_arrow.svg", "style": "min-width:48px;"}'>
+                locals='{"path": "graphics/arrow/gfx_arrow", "style": "min-width:48px;"}'>
                 Arrow
+            </Include>
+            <Include href="build/gfx.module.html" 
+                locals='{"path": "graphics/chevron/gfx_chevron-down", "style": "min-width:32px;"}'>
+                Chevron down
             </Include>
         </section>
         <!-- row -->
         <section>
             <Include href="build/gfx.module.html" 
-                locals='{"path": "graphics/logos/gfx_uwhealth-logo.svg", "style": "min-width:256px;"}'>
+                locals='{"path": "graphics/logos/gfx_uwhealth-logo", "style": "min-width:256px;"}'>
                 UW Health logo
             </Include>
         </section>
         <!-- row -->
         <section>
             <Include href="build/gfx.module.html" 
-                locals='{"path": "graphics/hero/gfx_hero-generic.svg", "classes": "resize--full"}'>
+                locals='{"path": "graphics/hero/gfx_hero-generic", "classes": "resize--full"}'>
                 Generic Hero
             </Include>
             <section></section>

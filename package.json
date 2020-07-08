@@ -13,7 +13,7 @@
     "url": "git+https://github.com/UWHealth/uwhealth-design-assets.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/UWHealth/uwhealth-design-assets/issues"
   },
@@ -22,6 +22,7 @@
     "chokidar": "^3.4.0",
     "colors": "^1.4.0",
     "posthtml": "^0.13.1",
+    "posthtml-inline-assets": "^3.1.0",
     "posthtml-inline-svg": "^0.2.0",
     "posthtml-modules": "^0.6.2"
   }

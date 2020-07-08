@@ -132,6 +132,7 @@ main {
     max-width: 90%;
     margin: auto;
 }
+
 .card {
     display: flex;
     flex-direction: column;

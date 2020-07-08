@@ -6,7 +6,147 @@
     <title>
         UW Health icons and graphics
     </title>
-    <link rel="stylesheet" href="style.css">
+    <style>/* Basic.css  */
+
+*, *:before, *:after {box-sizing: border-box}
+
+:root{
+--sans: 1em/1.6 system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue, Fira Sans, sans-serif;
+--mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, 'Courier New', monospace;
+--c1:#0074d9;
+--c2:#f2f7f8;
+--c3:#fff;
+--c4:#0a1b29;
+--c5:#fff;
+--m1: 8px;
+--rc: 4px;
+}
+
+/* @media (prefers-color-scheme: dark) {
+	:root {
+    --c2:#333;
+    --c3:#1e1f20;
+    --c4:#fff;
+	}
+} */
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+/* General settings */
+
+body {
+    margin: 0;
+    font: var(--sans);
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--c3);
+    color: var(--c4);
+}
+img, iframe {border: none; max-width: 100%}
+
+a {color: var(--c1);  text-decoration:none}
+
+a:hover {color: var(--c1); text-decoration: underline}
+
+pre {font: 1em/1.6 var(--mono); background: var(--c2); padding: 1em; overflow: auto}
+
+code {font: 1em/1.6 var(--mono);}
+
+blockquote {border-left: 5px solid var(--c2); padding: 1em 1.5em; margin: 0}
+
+hr {border:0; border-bottom: 1px solid var(--c4)}
+
+ /* Headlines */
+
+h1,h2,h3,h4,h5,h6 {margin: 0.6em 0; font-weight: normal}
+
+h1 {font-size: 2.625em; line-height: 1.2}
+
+h2 {font-size: 1.625em; line-height: 1.2}
+
+h3 {font-size: 1.3125em; line-height: 1.24}
+
+h4 {font-size: 1.1875em; line-height: 1.23}
+
+h5,h6 {font-size: 1em; font-weight:bold}
+
+/* Table */
+
+table {border-collapse: collapse; border-spacing: 0; margin:1em 0}
+
+th, td {text-align: left; vertical-align: top; border: 1px solid; padding: 0.4em}
+
+thead,tfoot {background: var(--c2)}
+
+/* Rounded Corners*/
+
+pre,code,input,select,textarea,button,img {border-radius: var(--rc)}
+
+
+/* Forms */
+
+input, select, textarea {font-size: 1em; color:var(--c4); background: var(--c2); border: 0; padding: 0.6em}
+
+button, input[type=submit], input[type=reset], input[type="button"] { -webkit-appearance: none; font-size: 1em; display: inline-block; color: var(--c5); background: var(--c1);  border: 0; margin: 4px;  padding: 0.6em; cursor: pointer; text-align: center}
+
+button:hover, button:focus, input:hover, textarea:hover, select:hover {opacity: 0.8}
+
+/* Infinite Grid */
+
+section {display: flex; flex-flow: row wrap}
+
+[style*="--c:"], section>section, aside, article {flex:var(--c,1); margin:var(--m1)}
+
+/* Cards */
+
+article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shadow: 0px 1px 0px rgba(0,0,0,0.3)}
+
+[style*="--c:"]:first-child, section>section:first-child, article:first-child {margin-left:0}
+
+/* Demo specific */
+
+.resize {
+    resize: both;
+    overflow: hidden;
+    width: 64px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    border-radius: var(--rc);
+    min-width: 24px;
+}
+.resize--full {
+    padding: 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.resize > svg {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+main {
+    max-width: 90%;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}</style>
 </head>
 <body>
     <main>
@@ -20,8 +160,8 @@
         <h2>
             Search Icon
         </h2>
-        <div class="resize undefined" style="undefined">
-            <svg viewBox="0 0 32 32" style="undefined"><path class="icon-search__magnifying-glass" d="M27.94 23.42c-.56-.47-3.12-2.26-4.75-3.28a12.13 12.13 0 10-10 5.36 12 12 0 008-3.07c1.45 1.37 3.87 3.66 4.35 4l.12.08a17.38 17.38 0 002.79 1.32L30 25.91a13.29 13.29 0 00-2.06-2.49zM3.64 13.25a9.58 9.58 0 019.51-9.62 9.62 9.62 0 11-9.51 9.62z"></path></svg>
+        <div class="resize " style="">
+            <svg viewBox="0 0 32 32" style=""><path class="icon-search__magnifying-glass" d="M27.94 23.42c-.56-.47-3.12-2.26-4.75-3.28a12.13 12.13 0 10-10 5.36 12 12 0 008-3.07c1.45 1.37 3.87 3.66 4.35 4l.12.08a17.38 17.38 0 002.79 1.32L30 25.91a13.29 13.29 0 00-2.06-2.49zM3.64 13.25a9.58 9.58 0 019.51-9.62 9.62 9.62 0 11-9.51 9.62z"></path></svg>
         </div>
     </article>
 </section>
@@ -29,10 +169,24 @@
     <article class="card">
         <h2>
             
+                Sort Icon
+            
+        </h2>
+        <div class="resize " style="min-width:32px;">
+            <svg viewBox="0 0 48 48" style=""><g class="icon-sort"><path class="icon-sort__down" d="M22 31.5l1-1 9 5.5V11h3v25l9-5.5 1 1L33.5 42z"></path><path class="icon-sort__up" d="M27 16.5l-1 1-9-5.5v26h-3V12l-9 5.5-1-1L15.5 6z"></path></g></svg>
+        </div>
+    </article>
+</section>
+        </section>
+        <section>
+            <section>
+    <article class="card">
+        <h2>
+            
                 Active indicator
             
         </h2>
-        <div class="resize undefined" style="undefined">
+        <div class="resize " style="">
             <svg viewBox="0 0 32 4" preserveAspectRatio="xMidYMid slice" style="min-width:32px; max-height: 4px; min-height: 4px;"><defs><mask id="a"><rect width="100%" height="100%" fill="#fff"></rect><svg viewBox="0 0 2 4" preserveAspectRatio="xMinYMid meet"><path d="M0 0v4h2.31l2.3-4z"></path></svg><svg viewBox="2 0 2 4" preserveAspectRatio="xMaxYMid meet"><path d="M0 0l2.31 4h2.3V0z"></path></svg></mask></defs><rect class="active-indicator__fill" width="32" height="100%" mask="url(#a)"></rect></svg>
         </div>
     </article>
@@ -44,8 +198,8 @@
                 Hex Bar
             
         </h2>
-        <div class="resize undefined" style="min-width:64px;">
-            <svg viewBox="0 0 64 24" style="undefined"><g fill="#065dba" class="gfx-hex-bar"><path d="M56.13 7.49h-5.2L48.33 12l2.6 4.51h5.2l2.6-4.51-2.6-4.51z"></path><path d="M2.25 11.75h55.7v.5H2.25z"></path><path d="M9.86 7.49h-5.2L2.06 12l2.6 4.51h5.2l2.6-4.51-2.6-4.51z"></path></g></svg>
+        <div class="resize " style="min-width:64px;">
+            <svg viewBox="0 0 64 24" style=""><g fill="#065dba" class="gfx-hex-bar"><path d="M56.13 7.49h-5.2L48.33 12l2.6 4.51h5.2l2.6-4.51-2.6-4.51z"></path><path d="M2.25 11.75h55.7v.5H2.25z"></path><path d="M9.86 7.49h-5.2L2.06 12l2.6 4.51h5.2l2.6-4.51-2.6-4.51z"></path></g></svg>
         </div>
     </article>
 </section>
@@ -56,8 +210,20 @@
                 Arrow
             
         </h2>
-        <div class="resize undefined" style="min-width:48px;">
-            <svg class="gfx-arrow" viewBox="0 0 64 64" style="undefined"><path class="gfx-arrow__line" d="M0 30.5h54v3H0z"></path><path class="gfx-arrow__head" d="M37.91 14.19L36 16.5 53.57 32 36 47.5l1.91 2.31L61.13 32 37.91 14.19z"></path></svg>
+        <div class="resize " style="min-width:48px;">
+            <svg class="gfx-arrow" viewBox="0 0 64 64" style=""><path class="gfx-arrow__line" d="M0 30.5h54v3H0z"></path><path class="gfx-arrow__head" d="M37.91 14.19L36 16.5 53.57 32 36 47.5l1.91 2.31L61.13 32 37.91 14.19z"></path></svg>
+        </div>
+    </article>
+</section>
+            <section>
+    <article class="card">
+        <h2>
+            
+                Chevron down
+            
+        </h2>
+        <div class="resize " style="min-width:32px;">
+            <svg viewBox="0 0 48 48" style=""><path d="M24 33.61L6.45 19l1.67-3.35L24 20.76l15.88-5.1L41.55 19z"></path></svg>
         </div>
     </article>
 </section>
@@ -71,8 +237,8 @@
                 UW Health logo
             
         </h2>
-        <div class="resize undefined" style="min-width:256px;">
-            <svg viewBox="0 0 188 31" style="undefined"><g class="logo-uwhealth"><path fill="#c5050c" class="logo-uwhealth__uw" d="M58.4 1.91v.76a2.17 2.17 0 012.28 2.06 2.09 2.09 0 010 .25c0 1.56-3.54 13.62-3.54 13.62S52.32 4.83 51.47 1.91h-6.33c-1 3.19-6 17.07-6 17.07l-4-13a4.48 4.48 0 01-.32-1.65c0-1 1-1.64 2.41-1.64v-.78H22.56v.76a2.42 2.42 0 011.83.54c.61.8.66 2.79.66 7.73v8c0 4.05-.44 9.22-6.36 9.22-6.57 0-6.38-4.89-6.38-7.89V5.52c0-2.3.36-2.86 2.31-2.86v-.75H.64v.76c2.46 0 2.3 1.3 2.3 5.62v12.84c0 5.29 3.84 9.1 12.32 9.1 8 0 12-3.58 12-11.13v-8.89c0 .15.09.3.14.45l6 19.27h4l7.23-20.75h.08l7.1 20.75H56s7.1-23.6 7.57-25.28a2.43 2.43 0 012.41-2v-.74z"></path><path fill="#065dba" class="logo-uwhealth__health" d="M84.06 11.63h-7.83V1.9h-8.36v28h8.37V18.82h7.83v11.11h8.37V1.9h-8.38zm20.45-2.58c-6.23 0-10.42 4.82-10.42 10.75 0 6.79 4.76 10.64 11.07 10.64 4.49 0 8.63-2 10.15-6.44h-7a3.71 3.71 0 01-3.15 1.45c-2.36 0-3.65-1.65-3.84-4h14.45c-.04-7.89-3.42-12.4-11.26-12.4zm-3.2 8.39a.28.28 0 010-.09 3.6 3.6 0 013.88-3.35h.14a3.29 3.29 0 013.17 3.41zm36.22 7.93V17c0-3.92.08-8-9.35-8a15.83 15.83 0 00-6.73 1.18 5.92 5.92 0 00-3.43 5.5h7c0-.86.5-2.08 2.82-2.08 1.21 0 2.47.51 2.47 1.89s-1 1.6-2.05 1.8c-3.85.74-11.15.51-11.15 6.94 0 4.28 3.16 6.16 7 6.16 2.44 0 4.75-.55 6.35-2.43h.08a5.69 5.69 0 00.27 1.92h7.68a8.45 8.45 0 01-.96-4.51zm-10.38.48A2.18 2.18 0 01124.8 24c0-1.37.87-1.81 2.54-2.2a12.32 12.32 0 003-1v2.16a3 3 0 01-3.19 2.89zm13.39 4.08h7.53V1.9h-7.53zM160.9 3.36h-7.53v6.2H150v4.78h3.35v9.73c0 5.58 3.54 6.09 6.73 6.09 1.6 0 3.31-.24 4.83-.24V24a14 14 0 01-1.71.11c-1.9 0-2.32-.82-2.32-2.71v-7.1h4V9.56h-4zM181.23 9a7.19 7.19 0 00-6.16 2.71H175V1.9h-7.52v28H175V19.17c0-3.25 1.71-3.92 3-3.92 2.2 0 2.47 1.64 2.47 4v10.68H188V16c0-4.72-3.23-7-6.77-7z"></path></g></svg>
+        <div class="resize " style="min-width:256px;">
+            <svg viewBox="0 0 188 31" style=""><g class="logo-uwhealth"><path fill="#c5050c" class="logo-uwhealth__uw" d="M58.4 1.91v.76a2.17 2.17 0 012.28 2.06 2.09 2.09 0 010 .25c0 1.56-3.54 13.62-3.54 13.62S52.32 4.83 51.47 1.91h-6.33c-1 3.19-6 17.07-6 17.07l-4-13a4.48 4.48 0 01-.32-1.65c0-1 1-1.64 2.41-1.64v-.78H22.56v.76a2.42 2.42 0 011.83.54c.61.8.66 2.79.66 7.73v8c0 4.05-.44 9.22-6.36 9.22-6.57 0-6.38-4.89-6.38-7.89V5.52c0-2.3.36-2.86 2.31-2.86v-.75H.64v.76c2.46 0 2.3 1.3 2.3 5.62v12.84c0 5.29 3.84 9.1 12.32 9.1 8 0 12-3.58 12-11.13v-8.89c0 .15.09.3.14.45l6 19.27h4l7.23-20.75h.08l7.1 20.75H56s7.1-23.6 7.57-25.28a2.43 2.43 0 012.41-2v-.74z"></path><path fill="#065dba" class="logo-uwhealth__health" d="M84.06 11.63h-7.83V1.9h-8.36v28h8.37V18.82h7.83v11.11h8.37V1.9h-8.38zm20.45-2.58c-6.23 0-10.42 4.82-10.42 10.75 0 6.79 4.76 10.64 11.07 10.64 4.49 0 8.63-2 10.15-6.44h-7a3.71 3.71 0 01-3.15 1.45c-2.36 0-3.65-1.65-3.84-4h14.45c-.04-7.89-3.42-12.4-11.26-12.4zm-3.2 8.39a.28.28 0 010-.09 3.6 3.6 0 013.88-3.35h.14a3.29 3.29 0 013.17 3.41zm36.22 7.93V17c0-3.92.08-8-9.35-8a15.83 15.83 0 00-6.73 1.18 5.92 5.92 0 00-3.43 5.5h7c0-.86.5-2.08 2.82-2.08 1.21 0 2.47.51 2.47 1.89s-1 1.6-2.05 1.8c-3.85.74-11.15.51-11.15 6.94 0 4.28 3.16 6.16 7 6.16 2.44 0 4.75-.55 6.35-2.43h.08a5.69 5.69 0 00.27 1.92h7.68a8.45 8.45 0 01-.96-4.51zm-10.38.48A2.18 2.18 0 01124.8 24c0-1.37.87-1.81 2.54-2.2a12.32 12.32 0 003-1v2.16a3 3 0 01-3.19 2.89zm13.39 4.08h7.53V1.9h-7.53zM160.9 3.36h-7.53v6.2H150v4.78h3.35v9.73c0 5.58 3.54 6.09 6.73 6.09 1.6 0 3.31-.24 4.83-.24V24a14 14 0 01-1.71.11c-1.9 0-2.32-.82-2.32-2.71v-7.1h4V9.56h-4zM181.23 9a7.19 7.19 0 00-6.16 2.71H175V1.9h-7.52v28H175V19.17c0-3.25 1.71-3.92 3-3.92 2.2 0 2.47 1.64 2.47 4v10.68H188V16c0-4.72-3.23-7-6.77-7z"></path></g></svg>
         </div>
     </article>
 </section>
@@ -86,8 +252,8 @@
                 Generic Hero
             
         </h2>
-        <div class="resize resize--full" style="undefined">
-            <svg class="gfx-generic-hero" viewBox="0 0 1400 1064" preserveAspectRatio="xMinYMin slice" style="undefined"><svg class="hero__movable gfx-generic-hero__bottom" viewBox="0 0 1400 1064"><path class="gfx-generic-hero__blue-l fill--blue-l" fill="#e2f7fa" d="M475.63-642.8h-518.6l518.6 902.35h988.11V-642.8H475.63z"></path><path class="gfx-generic-hero__red-v fill--red-v" fill="#ee2842" d="M625.09-.52L-52.53 1178.52h677.62v.05h837.85V-.52H625.09z"></path><path class="gfx-generic-hero__red fill--red" d="M1462.94 662.17H646.46a258.78 258.78 0 00-224.1 129.38l-223.42 387h1264z" fill="#c5050c"></path><path class="hero__toggle gfx-generic-hero__red-v fill--red-v" d="M1404.92 875h-597a159 159 0 00-137.74 79.52l-129.31 224h864.05z" fill="#ee2842"></path></svg><svg viewBox="0 0 1400 1064" class="hero__fixed gfx-generic-hero__top"><path class="gfx-generic-hero__blue-l fill--blue-l" fill="#e2f7fa" d="M475.63-642.8h-518.6l518.6 902.35h988.11V-642.8H475.63z"></path><path class="gfx-generic-hero__blue-d fill--blue-d" d="M475.63 259.55l295.45 511.73A65.76 65.76 0 00828 804.16h635.71V259.55z" fill="#001964"></path><path class="gfx-generic-hero__blue fill--blue" d="M475.63 259.55l165.9-287.34a83.07 83.07 0 0172-41.54h750.41v328.88z" fill="#065dba"></path></svg></svg>
+        <div class="resize resize--full" style="">
+            <svg class="gfx-generic-hero" viewBox="0 0 1400 1064" preserveAspectRatio="xMinYMin slice" style=""><svg class="hero__movable gfx-generic-hero__bottom" viewBox="0 0 1400 1064"><path class="gfx-generic-hero__blue-l fill--blue-l" fill="#e2f7fa" d="M475.63-642.8h-518.6l518.6 902.35h988.11V-642.8H475.63z"></path><path class="gfx-generic-hero__red-v fill--red-v" fill="#ee2842" d="M625.09-.52L-52.53 1178.52h677.62v.05h837.85V-.52H625.09z"></path><path class="gfx-generic-hero__red fill--red" d="M1462.94 662.17H646.46a258.78 258.78 0 00-224.1 129.38l-223.42 387h1264z" fill="#c5050c"></path><path class="hero__toggle gfx-generic-hero__red-v fill--red-v" d="M1404.92 875h-597a159 159 0 00-137.74 79.52l-129.31 224h864.05z" fill="#ee2842"></path></svg><svg viewBox="0 0 1400 1064" class="hero__fixed gfx-generic-hero__top"><path class="gfx-generic-hero__blue-l fill--blue-l" fill="#e2f7fa" d="M475.63-642.8h-518.6l518.6 902.35h988.11V-642.8H475.63z"></path><path class="gfx-generic-hero__blue-d fill--blue-d" d="M475.63 259.55l295.45 511.73A65.76 65.76 0 00828 804.16h635.71V259.55z" fill="#001964"></path><path class="gfx-generic-hero__blue fill--blue" d="M475.63 259.55l165.9-287.34a83.07 83.07 0 0172-41.54h750.41v328.88z" fill="#065dba"></path></svg></svg>
         </div>
     </article>
 </section>

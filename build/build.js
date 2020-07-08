@@ -10,15 +10,22 @@ const OUT = path.resolve(BASE, 'tests.html');
 const WATCH = ['./build/*.*', './graphics/**/*.*', './icons/**/*.*'];
 
 const posthtml_opts = {
+    modules: {
+        root: BUILD,
+        from: BUILD,
+        tag: 'Include',
+    },
     inlineSvg: {
         cwd: BUILD,
         tag: 'Asset',
         attr: 'src',
     },
-    modules: {
-        root: BUILD,
-        from: BUILD,
-        tag: 'Include',
+    inlineAssets: {
+        cwd: BUILD,
+        transforms: {
+            image: false,
+            script: false
+        }
     }
 };
 const choki_opts = { 
@@ -29,12 +36,13 @@ const choki_opts = {
 function processHtml() {
     posthtml([
         require('posthtml-modules')(posthtml_opts.modules),
-        require('posthtml-inline-svg')(posthtml_opts.inlineSvg)
+        require('posthtml-inline-svg')(posthtml_opts.inlineSvg),
+        require('posthtml-inline-assets')(posthtml_opts.inlineAssets)
     ])
     .process(fs.readFileSync(IN, 'utf8'))
     .then((result) => {
         fs.writeFileSync(OUT, result.html);
-        console.info(colors.green(`Successfully wrote to ${OUT}!\n`))
+        console.info(colors.green(`Successfully wrote ${OUT}!\n`))
     })
     .catch(e => console.error(e, e.stack));
 }
