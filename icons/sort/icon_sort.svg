@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <g class="icon-sort">
+      <path class="icon-sort__down" d="M22,31.5l1-1L32,36V11h3V36l9-5.5,1,1L33.5,42Z"/>
+      <path class="icon-sort__up" d="M27,16.5l-1,1L17,12V38H14V12L5,17.5l-1-1L15.5,6Z"/>
+    </g>
+</svg>
