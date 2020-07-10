@@ -1,10 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 89 70">
-  <polygon class="gfx-card-bg__d-blue" points="31.41 19.33 31.41 64 61.21 64 87 19.33 31.41 19.33" fill="#001964"/>
-  <path class="gfx-card-bg__v-red" d="M87,19.33l-4.27-7.41H64.45L59.88,4a6,6,0,0,0-5.21-3H0V19.33Z" fill="#ee2842"/>
-  <!--full-bleed-hide should be display:none on full-bleed cards -->
-  <path class="gfx-card-bg__full-bleed--hide" d="M0,26.06V3H35a4,4,0,0,1,3.46,2l12.16,21Z" fill="#001964"/>
-  <!--full-bleed-show should be display:none on basic-style cards -->
-  <path class="gfx-card-bg__full-bleed--show" d="M0,26.06V6H36.22a10.58,10.58,0,0,1,9.15,5.29l8.52,14.76Z" fill="#001964"/>
-  <polygon class="gfx-card-bg__blue-trapezoid" points="61.21 64 34.74 18.16 0.61 18.16 27.08 64 61.21 64" fill="#065dba"/>
-  <rect class="gfx-card-bg__full-bleed--hide" y="18.16" width="29.7" height="45.84" fill="#065dba"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 -7 89 74">
+    <!--
+    Notes:
+        * full-bleed-hide: should be hidden for full-bleed cards
+        * full-bleed-show: should be shown for full-bleed cards
+    -->
+    <g class="gfx-card-bg-1">
+        <polygon
+            class="fill__d-blue"
+            points="31.41 19.33 31.41 64 61.21 64 87 19.33 31.41 19.33"
+            fill="#001964"/>
+        <path
+            class="fill__v-red"
+            d="M87,19.33l-4.27-7.41H64.45L59.88,4a6,6,0,0,0-5.21-3H0V19.33Z"
+            fill="#ee2842"/>
+        <path
+            class="full-bleed--hide fill__d-blue"
+            d="M0,26.06V3H35a4,4,0,0,1,3.46,2l12.16,21Z"
+            fill="#001964"/>
+        <path
+            class="full-bleed--show fill__d-blue"
+            d="M0,26.06V6H36.22a10.58,10.58,0,0,1,9.15,5.29l8.52,14.76Z"
+            fill="#001964"/>
+        <rect class="full-bleed--hide fill__blue"
+            y="18.16"
+            width="29.7" height="45.84"
+            fill="#065dba"/>
+        <polygon class="fill__blue"
+            points="61.21 64 34.74 18.16 0.61 18.16 27.08 64 61.21 64"
+            fill="#065dba"/>
+    </g>
 </svg>
