@@ -105,7 +105,7 @@ section {display: flex; flex-flow: row wrap}
 
 /* Cards */
 
-article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shadow: 0px 1px 0px rgba(0,0,0,0.3)}
+article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shadow: 0px 1px 0px rgba(0,0,0,0.1)}
 
 [style*="--c:"]:first-child, section>section:first-child, article:first-child {margin-left:0}
 
@@ -122,7 +122,9 @@ article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shad
     justify-content: center;
     padding: .5rem;
     border-radius: var(--rc);
-    min-width: 24px;
+    min-width: 4rem;
+    max-width: 33vw;
+    min-height: 4rem;
 }
 .resize--full {
     padding: 0;
@@ -139,6 +141,7 @@ article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shad
 main {
     max-width: 90%;
     margin: auto;
+    padding-bottom: 25vh;
 }
 
 .card {
@@ -257,7 +260,31 @@ main {
         </div>
     </article>
 </section>
-            <section></section>
+            <section>
+    <article class="card">
+        <h2>
+            
+                Card BG 1
+            
+        </h2>
+        <div class="resize resize--full" style="">
+            <svg viewBox="0 -4 89 70" style=""><path class="gfx-card-bg__d-blue" fill="#001964" d="M31.41 19.33V64h29.8L87 19.33H31.41z"></path><path class="gfx-card-bg__v-red" d="M87 19.33l-4.27-7.41H64.45L59.88 4a6 6 0 00-5.21-3H0v18.33z" fill="#ee2842"></path><path class="gfx-card-bg__full-bleed--hide" d="M0 26.06V3h35a4 4 0 013.46 2l12.16 21z" fill="#001964"></path><path class="gfx-card-bg__full-bleed--show" d="M0 26.06V6h36.22a10.58 10.58 0 019.15 5.29l8.52 14.76z" fill="#001964"></path><path class="gfx-card-bg__blue-trapezoid" fill="#065dba" d="M61.21 64L34.74 18.16H.61L27.08 64h34.13z"></path><path class="gfx-card-bg__full-bleed--hide" fill="#065dba" d="M0 18.16h29.7V64H0z"></path></svg>
+        </div>
+    </article>
+</section>
+            <section>
+    <article class="card">
+        <h2>
+            
+                Card List Feature BG
+            
+        </h2>
+        <div class="resize resize--full" style="">
+            <svg viewBox="0 0 119 84" style=""><path class="gfx-card__p-blue" fill="#e2f7fa" d="M55.48 0L6.45 84.92h119.87L167.45 0H55.48z"></path><path class="gfx-card__v-red" fill="#ee2842" d="M128.26 0v20.54H43.61L31.74 0h96.52z"></path><path class="gfx-card__red" d="M128.26 32.07V0H85.53a5 5 0 00-4.33 2.5L64.13 32.07z" fill="#c5050c"></path><path class="gfx-card__v-blue" d="M128.26 11.57h-78A2.57 2.57 0 0048 12.86l-4.43 7.68 6 10.31a2.42 2.42 0 002.09 1.2h76.61z" fill="#31c4f0"></path><path class="gfx-card__blue" d="M128.26 11.57h-78A2.57 2.57 0 0048 12.86l-4.43 7.68h84.65z" fill="#065dba"></path><path class="gfx-card__d-blue" d="M128.26 32v43.56h-37a3.49 3.49 0 01-3-1.75L64.13 32z" fill="#001964"></path><path class="gfx-card__d-blue" fill="#001964" d="M128.26 32.06V11.55H75.98L64.13 32.06h64.13z"></path></svg>
+        </div>
+    </article>
+</section>
+            
         </section>
     </main>
 </body>
