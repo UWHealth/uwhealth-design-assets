@@ -1,15 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-  <g id="Layer_2" data-name="Layer 2">
-    <g id="Icons">
-      <g id="icon_category-search">
-        <rect id="container" width="48" height="48" fill="#065dba" fill-opacity="0" opacity="0"/>
-        <g id="glass">
-          <path d="M43.67,39.44l-1.4-1.18-.74-.48-4-2a10.65,10.65,0,1,0-1.66,2.87l3.69,2.48.81.41,1.7.62a.84.84,0,0,0,1.06-.36l.75-1.31A.82.82,0,0,0,43.67,39.44Zm-19.77-1A7.41,7.41,0,1,1,34,35.71,7.37,7.37,0,0,1,23.9,38.42Z"/>
-        </g>
-        <g id="category">
-          <path d="M33,5.25H6v3H33ZM6,11V41H9.25V14H42V11Z"/>
-        </g>
-      </g>
+    <g class="icon-category-search">
+        <path class="icon-category-search__glass" d="M43.67,39.44l-1.4-1.18-.74-.48-4-2a10.65,10.65,0,1,0-1.66,2.87l3.69,2.48.81.41,1.7.62a.84.84,0,0,0,1.06-.36l.75-1.31A.82.82,0,0,0,43.67,39.44Zm-19.77-1A7.41,7.41,0,1,1,34,35.71,7.37,7.37,0,0,1,23.9,38.42Z"/>
+        <path class="icon-category-search__box" d="M33,6H6V9H33ZM6,13V41H9.25V16H42V13Z"/>
     </g>
-  </g>
 </svg>
