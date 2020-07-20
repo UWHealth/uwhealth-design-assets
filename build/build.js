@@ -28,16 +28,16 @@ const posthtml_opts = {
         }
     }
 };
-const choki_opts = { 
+const choki_opts = {
     ignoreInitial: true,
     followSymlinks: false,
 };
 
 function processHtml() {
     posthtml([
-        require('posthtml-modules')(posthtml_opts.modules),
-        require('posthtml-inline-svg')(posthtml_opts.inlineSvg),
-        require('posthtml-inline-assets')(posthtml_opts.inlineAssets)
+        require('posthtml-modules')(posthtml_opts.modules), // modules
+        require('posthtml-inline-svg')(posthtml_opts.inlineSvg), // inline svg
+        require('posthtml-inline-assets')(posthtml_opts.inlineAssets) //inline css
     ])
     .process(fs.readFileSync(IN, 'utf8'))
     .then((result) => {

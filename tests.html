@@ -125,6 +125,7 @@ article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shad
     min-width: 4rem;
     max-width: 33vw;
     min-height: 4rem;
+    box-sizing: content-box;
 }
 .resize--full {
     padding: 0;
@@ -149,7 +150,8 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}</style>
+}
+</style>
 </head>
 <body>
     <main>
@@ -161,7 +163,9 @@ main {
             <section>
     <article class="card">
         <h2>
-            Search Icon
+            
+                Search Icon
+            
         </h2>
         <div class="resize " style="">
             <svg viewBox="0 0 32 32" style=""><path class="icon-search__magnifying-glass" d="M27.94 23.42c-.56-.47-3.12-2.26-4.75-3.28a12.13 12.13 0 10-10 5.36 12 12 0 008-3.07c1.45 1.37 3.87 3.66 4.35 4l.12.08a17.38 17.38 0 002.79 1.32L30 25.91a13.29 13.29 0 00-2.06-2.49zM3.64 13.25a9.58 9.58 0 019.51-9.62 9.62 9.62 0 11-9.51 9.62z"></path></svg>
@@ -180,6 +184,46 @@ main {
         </div>
     </article>
 </section>
+            <section>
+    <article class="card">
+        <h2>
+            
+                Filter Icon
+            
+        </h2>
+        <div class="resize " style="min-width:32px;">
+            <svg viewBox="0 0 48 48" style=""><path d="M6 12v3h36v-3zm6 13.5h24v-3H12zM20 36h8v-3h-8z" data-name="Layer 2"></path></svg>
+        </div>
+    </article>
+</section>
+            <section>
+    <article class="card">
+        <h2>
+            
+                Category search Icon
+            
+        </h2>
+        <div class="resize " style="min-width:32px;">
+            <svg viewBox="0 0 48 48" style=""><g data-name="Layer 2"><path d="M43.67 39.44l-1.4-1.18-.74-.48-4-2a10.65 10.65 0 10-1.66 2.87l3.69 2.48.81.41 1.7.62a.84.84 0 001.06-.36l.75-1.31a.82.82 0 00-.21-1.05zm-19.77-1A7.41 7.41 0 1134 35.71a7.37 7.37 0 01-10.1 2.71z"></path><path d="M33 5.25H6v3h27zM6 11v30h3.25V14H42v-3z"></path></g></svg>
+        </div>
+    </article>
+</section>
+        </section>
+        <!-- row -->
+        <section>
+            <article class="card">
+                <h2>Icon container</h2>
+                <section>
+                    <svg viewBox="0 0 48 48" width="64" height="64"><path class="gfx-icon-container" d="M27.39 1.1h-6.78A17 17 0 005.86 9.61l-3.39 5.88a17 17 0 000 17l3.39 5.88a17 17 0 0014.75 8.53h6.78a17 17 0 0014.75-8.51l3.39-5.88a17 17 0 000-17l-3.39-5.9A17 17 0 0027.39 1.1z" fill="#84efff"></path></svg>
+                    <section>&nbsp;</section>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 48 48">
+    <path class="gfx-icon-container" d="M27.39,1.1H20.61A17,17,0,0,0,5.86,9.61L2.47,15.49a17,17,0,0,0,0,17l3.39,5.88A17,17,0,0,0,20.61,46.9h6.78a17,17,0,0,0,14.75-8.51l3.39-5.88a17,17,0,0,0,0-17L42.14,9.61A17,17,0,0,0,27.39,1.1Z" fill="#84efff"></path>
+    
+                        <svg viewBox="0 0 48 48" width="32" x="7.5" fill="#0051B1"><g data-name="Layer 2"><path d="M43.67 39.44l-1.4-1.18-.74-.48-4-2a10.65 10.65 0 10-1.66 2.87l3.69 2.48.81.41 1.7.62a.84.84 0 001.06-.36l.75-1.31a.82.82 0 00-.21-1.05zm-19.77-1A7.41 7.41 0 1134 35.71a7.37 7.37 0 01-10.1 2.71z"></path><path d="M33 5.25H6v3h27zM6 11v30h3.25V14H42v-3z"></path></g></svg>
+</svg>
+
+                </section>
+            </article>
         </section>
         <section>
             <section>
@@ -268,7 +312,7 @@ main {
             
         </h2>
         <div class="resize resize--full" style="">
-            <svg viewBox="2 -7 89 74" style=""><g class="gfx-card-bg-1"><path class="fill__d-blue" fill="#001964" d="M31.41 19.33V64h29.8L87 19.33H31.41z"></path><path class="fill__v-red" d="M87 19.33l-4.27-7.41H64.45L59.88 4a6 6 0 00-5.21-3H0v18.33z" fill="#ee2842"></path><path class="full-bleed--hide fill__d-blue" d="M0 26.06V3h35a4 4 0 013.46 2l12.16 21z" fill="#001964"></path><path class="full-bleed--show fill__d-blue" d="M0 26.06V6h36.22a10.58 10.58 0 019.15 5.29l8.52 14.76z" fill="#001964"></path><path class="full-bleed--hide fill__blue" fill="#065dba" d="M0 18.16h29.7V64H0z"></path><path class="fill__blue" fill="#065dba" d="M61.21 64L34.74 18.16H.61L27.08 64h34.13z"></path></g></svg>
+            <svg viewBox="0 0 86 65" style=""><g class="gfx-card-bg-1"><path class="fill__d-blue" fill="#001964" d="M29.4 19.3V64h29.8L85 19.3z"></path><path class="fill__v-red" d="M85 19.3l-4.3-7.4H62.4L57.9 4c-1.1-1.9-3.1-3-5.2-3H-2v18.3h87z" fill="#ee2842"></path><path class="full-bleed--hide fill__d-blue" d="M-2 26.1V3h35c1.4 0 2.7.8 3.5 2l12.2 21-50.7.1z" fill="#001964"></path><path class="full-bleed--show fill__d-blue" d="M-2 26.1V6h36.2c3.8 0 7.3 2 9.2 5.3L51.9 26l-53.9.1z" fill="#001964"></path><path class="full-bleed--hide fill__blue" fill="#065dba" d="M-2 18.16h29.7V64H-2z"></path><path class="fill__blue" fill="#065dba" d="M59.2 64L32.7 18.2H-1.4L25.1 64z"></path></g></svg>
         </div>
     </article>
 </section>
@@ -280,11 +324,11 @@ main {
             
         </h2>
         <div class="resize resize--full" style="">
-            <svg viewBox="0 0 119 84" style=""><g class="gfx_card-list-bg"><path class="fill__p-blue" fill="#e2f7fa" d="M50.23 0L1.2 84.92H121V0H50.23z"></path><path class="fill__v-red" fill="#ee2842" d="M121 0v20.54H38.35L26.49 0H121z"></path><path class="fill__v-red" d="M121 32.07V0H80.28A5 5 0 0076 2.5L58.88 32.07z" fill="#c5050c"></path><path class="fill__v-blue" d="M121 11.57H45a2.55 2.55 0 00-2.22 1.29l-4.44 7.68 6 10.31a2.41 2.41 0 002.08 1.2H121z" fill="#31c4f0"></path><path class="fill__blue" d="M121 11.57H45a2.55 2.55 0 00-2.22 1.29l-4.44 7.68H121z" fill="#065dba"></path><path class="fill__d-blue" d="M70.72 11.55L58.92 32 83 73.81a3.48 3.48 0 003 1.75h35v-64z" fill="#001964"></path></g></svg>
+            <svg viewBox="0 0 119 84" style=""><g class="gfx_card-bg-2"><path class="fill__p-blue" fill="#e2f7fa" d="M50.23 0L1.2 84.92H121V0H50.23z"></path><path class="fill__v-red" fill="#ee2842" d="M121 0v20.54H38.35L26.49 0H121z"></path><path class="fill__v-red" d="M121 32.07V0H80.28A5 5 0 0076 2.5L58.88 32.07z" fill="#c5050c"></path><path class="fill__v-blue" d="M121 11.57H45a2.55 2.55 0 00-2.22 1.29l-4.44 7.68 6 10.31a2.41 2.41 0 002.08 1.2H121z" fill="#31c4f0"></path><path class="fill__blue" d="M121 11.57H45a2.55 2.55 0 00-2.22 1.29l-4.44 7.68H121z" fill="#065dba"></path><path class="fill__d-blue" d="M70.72 11.55L58.92 32 83 73.81a3.48 3.48 0 003 1.75h35v-64z" fill="#001964"></path></g></svg>
         </div>
     </article>
 </section>
-            
+
         </section>
     </main>
 </body>
