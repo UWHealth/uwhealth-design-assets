@@ -117,6 +117,7 @@ article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shad
     min-width: 4rem;
     max-width: 33vw;
     min-height: 4rem;
+    box-sizing: content-box;
 }
 .resize--full {
     padding: 0;
