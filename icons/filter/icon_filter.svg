@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Icons">
+      <g id="icon_filter">
+        <rect id="container" width="48" height="48" fill="#065dba" fill-opacity="0" opacity="0"/>
+        <g id="filter">
+          <path d="M6,12v3H42V12Zm6,13.5H36v-3H12ZM20,36h8V33H20Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
