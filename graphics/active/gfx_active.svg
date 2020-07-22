@@ -1,33 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" 
-    viewBox="0 0 32 4" 
+<svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 4"
     preserveAspectRatio="xMidYMid slice">
     <defs>
     <!-- embedded svgs to allow for different varied scaling -->
         <mask id="active-indicator__mask">
-            <rect width="100%" height="100%" fill="white"/>
-            <svg
-                viewBox="0 0 2 4"
-                fill="black"
-                x="-2"
-                width="100%" height="100%" 
-                preserveAspectRatio="xMinYMid meet">
-                    <polygon
-                        points="0 0  0 4  2.31 4  4.61 0 "/>
-            </svg>
-            <svg
-                viewBox="2 0 2 4"
-                fill="black"
-                x="1.5"
-                width="100%" height="100%"
-                preserveAspectRatio="xMaxYMid meet">
-                    <polygon 
-                        points="0 0  2.31 4  4.61 4  4.61 0"/>
-            </svg>
+            <rect fill="white" width="100%" height="100%" style="fill:white"/>
+            <g class="active-indicator__mask-polygons" fill="black">
+                <svg
+                    viewBox="0 0 2 4"
+                    x="-2"
+                    width="100%" height="100%"
+                    preserveAspectRatio="xMinYMid meet">
+                        <polygon
+                            points="0 0  0 4  2.31 4  4.61 0 "/>
+                </svg>
+                <svg
+                    viewBox="2 0 2 4"
+                    x="1.5"
+                    width="100%" height="100%"
+                    preserveAspectRatio="xMaxYMid meet">
+                        <polygon
+                            points="0 0  2.31 4  4.61 4  4.61 0"/>
+                </svg>
+            </g>
         </mask>
     </defs>
     <!--  -->
-    <rect 
-        class="gfx-active__fill" 
-        width="100%" height="100%" 
+    <rect
+        class="gfx-active__fill"
+        width="100%" height="100%"
         mask="url(#active-indicator__mask)"/>
 </svg>
