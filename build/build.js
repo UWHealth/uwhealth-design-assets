@@ -19,6 +19,14 @@ const posthtml_opts = {
         cwd: BUILD,
         tag: 'Asset',
         attr: 'src',
+        svgo: {
+            full: true,
+            plugins: [
+                {cleanupAttrs: true},
+                {removeComments: true},
+                {removeXMLNS: true}
+            ]
+        }
     },
     inlineAssets: {
         cwd: BUILD,
