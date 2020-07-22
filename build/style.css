@@ -1,9 +1,20 @@
-/* Basic.css  */
 
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/l?primer=8fa4b058e82492e04d7cdf52b0e62c529469bc2a019e2b65c17d5e267ca91b8d&fvd=n4&v=3')
+        format('woff2'),
+        url('https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/d?primer=8fa4b058e82492e04d7cdf52b0e62c529469bc2a019e2b65c17d5e267ca91b8d&fvd=n4&v=3')
+            format('woff'),
+        url('https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/a?primer=8fa4b058e82492e04d7cdf52b0e62c529469bc2a019e2b65c17d5e267ca91b8d&fvd=n4&v=3')
+            format('opentype');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+}
 *, *:before, *:after {box-sizing: border-box}
 
 :root{
---sans: 1em/1.6 system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue, Fira Sans, sans-serif;
+--sans: 1em/1.6 'Proxima Nova', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue, Fira Sans, sans-serif;
 --mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, 'Courier New', monospace;
 --c1:#0074d9;
 --c2:#f2f7f8;
@@ -118,6 +129,7 @@ article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shad
     max-width: 33vw;
     min-height: 4rem;
     box-sizing: content-box;
+    fill: #0051B1;
 }
 .resize--full {
     padding: 0;
@@ -142,4 +154,32 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.card details {
+    display: block;
+    width: 100%;
+    padding-top: .8rem;
+    margin-top: 1rem;
+    border-top: 1px solid #a7a7a7;
+}
+
+.card summary {
+    color: #707070;
+}
+
+.icon-text svg {
+    width: 1.6em;
+    margin-right: 1rem;
+    float: left;
+}
+
+.icon-text {
+    font-size: 1.25rem;
+    line-height: 1.6em;
+}
+
+.icon-text span {
+    line-height: 1.6;
+    overflow: hidden;
 }

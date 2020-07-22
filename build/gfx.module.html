@@ -6,5 +6,14 @@
         <div class="resize {{ this.classes || ''}}" style="{{ this.style || '' }}">
             <Asset src="../{{ path }}.svg" style="{{ this.aStyle || '' }}"></Asset>
         </div>
+        <if condition="{{this.icon}}">
+            <details>
+                <summary>Text test</summary>
+                <p class="icon-text">
+                    <Asset src="../{{ path }}.svg" style="{{ this.aStyle || '' }}"></Asset>
+                    <span>Lorem ipsum</span>
+                </p>
+            </details>
+        </if>
     </article>
 </section>
