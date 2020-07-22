@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <g class="icon-translate">
+        <path class="icon-translate__bubble"
+            d="M17.5,7.5v20h11v3.3l4.37-3.3H39.5V7.5h-22m-.83-3H40.33A2.17,2.17,0,0,1,42.5,6.67V28.33a2.17,2.17,0,0,1-2.17,2.17H33.87L25.5,36.83V30.5H16.67a2.17,2.17,0,0,1-2.17-2.17V6.67A2.17,2.17,0,0,1,16.67,4.5Z"/>
+        <path class="icon-translate__bubble-text"
+            d="M22.5,22.5h8v-3h-8Zm0-9v3h12v-3Z"/>
+        <polygon class="icon-translate__document"
+            points="33.5 33.5 33.5 41.5 9.5 41.5 9.5 9.5 12.5 9.5 12.5 6.5 6.5 6.5 6.5 44.5 36.5 44.5 36.5 33.5 33.5 33.5"/>
+    </g>
+</svg>
