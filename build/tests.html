@@ -16,7 +16,7 @@
         <!-- row -->
         <section>
             <article class="card">
-                <h2>Icon container</h2>
+                <h2>Icon container (with nested icon)</h2>
                 <section>
                     <Asset src="../graphics/icon-container/gfx_icon-container.svg" width="64" height="64"></Asset>
                     <section>&nbsp;</section>
@@ -32,6 +32,10 @@
                 Search Icon
             </Include>
             <Include href="build/gfx.module.html"
+                locals='{"path": "icons/category-search/icon_category-search", "icon": true}'>
+                Category search Icon
+            </Include>
+            <Include href="build/gfx.module.html"
                 locals='{"path": "icons/sort/icon_sort", "icon": true}'>
                 Sort Icon
             </Include>
@@ -40,8 +44,19 @@
                 Filter Icon
             </Include>
             <Include href="build/gfx.module.html"
-                locals='{"path": "icons/category-search/icon_category-search", "icon": true}'>
-                Category search Icon
+            locals='{"path": "icons/adjust/icon_adjust", "icon": true}'>
+                Adjust Icon
+            </Include>
+        </section>
+        <!-- row -->
+        <section>
+            <Include href="build/gfx.module.html"
+                locals='{"path": "icons/check/icon_check", "icon": true}'>
+                Check Icon
+            </Include>
+            <Include href="build/gfx.module.html"
+                locals='{"path": "icons/check/icon_check-circle", "icon": true}'>
+                Check in circle Icon
             </Include>
             <Include href="build/gfx.module.html"
                 locals='{"path": "icons/translate/icon_translate", "icon": true}'>
@@ -50,6 +65,10 @@
             <Include href="build/gfx.module.html"
                 locals='{"path": "icons/download/icon_download", "icon": true}'>
                 Download Icon
+            </Include>
+            <Include href="build/gfx.module.html"
+                locals='{"path": "icons/print/icon_print", "icon": true}'>
+                Print Icon
             </Include>
         </section>
         <!-- row -->
