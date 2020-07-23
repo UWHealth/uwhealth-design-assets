@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <g class="icon-print">
+        <path class="icon-print__page" d="M48,16V41.67L42,52H16V16H48m4-4H12V56H44.35L52,42.74V12Z"/>
+        <path class="icon-print__curl" d="M46.67,44l-4.62,8H36V44H46.67M52,40H32V56H44.36L52,42.76V40Z"/>
+        <polygon class="icon-print__printer" points="60 12 4 12 4 20 8 20 12 16 52 16 56 20 60 20 60 12 60 12"/>
+    </g>
+</svg>
