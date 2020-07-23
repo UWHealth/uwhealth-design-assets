@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <g class="icon-adjust">
+        <path class="icon-adjust__left" d="M20,8H16V32.2a10,10,0,0,0,0,19.6V56h4V51.8a10,10,0,0,0,0-19.6V8ZM18,48a6,6,0,1,1,6-6,6,6,0,0,1-6,6Z"/>
+        <path class="icon-adjust__right" d="M48,8H44v8.2a10,10,0,0,0,0,19.6V56h4V35.8a10,10,0,0,0,0-19.6V8ZM46,32a6,6,0,1,1,6-6,6,6,0,0,1-6,6Z"/>
+    </g>
+</svg>
