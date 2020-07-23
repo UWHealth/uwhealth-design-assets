@@ -131,6 +131,15 @@ article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shad
     box-sizing: content-box;
     fill: #0051B1;
 }
+
+.resize--icon {
+    width: 48px;
+    min-width: 21.333px;
+    min-height: 21.333px;
+    max-width: 128px;
+    max-height: 128px;
+}
+
 .resize--full {
     padding: 0;
     width: 100%;

@@ -3,7 +3,7 @@
         <h2>
             <content></content>
         </h2>
-        <div class="resize {{ this.classes || ''}}" style="{{ this.style || '' }}">
+        <div class="resize {{ this.classes || ''}}{{ this.icon ? ' resize--icon' :''}}" style="{{ this.style || '' }}">
             <Asset src="../{{ path }}.svg" style="{{ this.aStyle || '' }}"></Asset>
         </div>
         <if condition="{{this.icon}}">
