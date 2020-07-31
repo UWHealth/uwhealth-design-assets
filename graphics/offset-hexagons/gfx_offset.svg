@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 100" width="1100">
-    <g class="gfx-offset" stroke="#221f20" fill="#221f20" stroke-miterlimit="10">
-        <g class="gfx-offset-background" opacity="0.5" fill="none" stroke-width="0.1">
+    <g class="gfx-offset-hexagons" stroke="#221f20" fill="#221f20" stroke-miterlimit="10">
+        <g class="gfx-offset-hexagons__background" opacity="0.5" fill="none" stroke-width="0.1">
             <polygon points="35.32 0.54 28.96 0.54 25.77 6.04 28.96 11.54 35.32 11.54 38.5 6.04 35.32 0.54" />
             <polygon points="63.96 17.03 57.59 17.03 54.41 22.53 57.59 28.02 63.96 28.02 67.14 22.53 63.96 17.03" />
             <polygon points="83.05 28.02 76.69 28.02 73.5 33.52 76.69 39.02 83.05 39.02 86.23 33.52 83.05 28.02" />
@@ -48,7 +48,7 @@
             <polygon points="38.5 72 32.14 72 28.96 77.49 32.14 82.99 38.5 82.99 41.69 77.49 38.5 72" />
             <polygon points="67.14 88.48 60.78 88.48 57.59 93.98 60.78 99.48 67.14 99.48 70.32 93.98 67.14 88.48" />
         </g>
-        <g class="gfx-offset-foreground" fill="none" stroke-width="0.125">
+        <g class="gfx-offset-hexagons__foreground" fill="none" stroke-width="0.125">
             <polygon points="32.14 6.04 25.77 6.04 22.59 11.54 25.77 17.03 32.14 17.03 35.32 11.54 32.14 6.04" />
             <polygon points="60.78 22.53 54.41 22.53 51.23 28.02 54.41 33.52 60.78 33.52 63.96 28.02 60.78 22.53" />
             <polygon points="79.87 33.52 73.5 33.52 70.32 39.02 73.5 44.51 79.87 44.51 83.05 39.02 79.87 33.52" />
@@ -73,7 +73,7 @@
             <polygon points="41.69 66.5 35.32 66.5 32.14 72 35.32 77.49 41.69 77.49 44.87 72 41.69 66.5" />
             <polygon points="70.32 82.99 63.96 82.99 60.78 88.48 63.96 93.98 70.32 93.98 73.5 88.48 70.32 82.99" />
         </g>
-        <g class="gfx-offset__dots" stroke-width="0">
+        <g class="gfx-offset-hexagons__dots" stroke-width="0">
             <circle cx="25.77" cy="6.04" r="0.25" />
             <circle cx="32.14" cy="17.03" r="0.25" />
             <circle cx="22.59" cy="22.53" r="0.25" />
