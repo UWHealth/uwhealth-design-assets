@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 98">
+    <g class="gfx-card-bg-3">
+    <!--
+        Note: This path extends far beyond the viewbox.
+        Adding overflow: visible to this SVG will allow it to bleed off the page
+    -->
+        <path
+            class="gfx-card-bg-3__shape fill__v-red"
+            d="M29.63,27.54a1.27,1.27,0,0,0-1.1.63L21.25,40.72H11.15L4.05,53l5,8.7,0,.05,17.43,30A8.4,8.4,0,0,0,33.74,96H200V27.54Z"
+            fill="#ee2842"
+        />
+        <path
+            class="gfx-card-bg-3__shape fill__p-red"
+            d="M59.86.5H39.16A6.19,6.19,0,0,0,33.8,3.59L23.23,21.9a4.26,4.26,0,0,0,0,4.26L33.42,43.81a7.51,7.51,0,0,0,6.5,3.75H58.31A7.69,7.69,0,0,0,65,43.71l10.6-18.35a2.7,2.7,0,0,0,0-2.67L64.2,3A5,5,0,0,0,59.86.5Z"
+            fill="#ffece6"
+        />
+        <path
+            class="gfx-card-bg-3__shape fill__red"
+            d="M35.69,50H29.87a4.94,4.94,0,0,0-4.29,2.48l-2.92,5a5,5,0,0,0,0,5l2.92,5A4.94,4.94,0,0,0,29.87,70h5.82A4.94,4.94,0,0,0,40,67.52l2.92-5a5,5,0,0,0,0-5l-2.92-5A4.94,4.94,0,0,0,35.69,50Z"
+            fill="#c5050c"
+        />
+        <path
+            class="gfx-card-bg-3__shape fill__d-blue"
+            d="M18.54,24H11.61L8.14,30l3.47,6h6.82a.2.2,0,0,0,.16-.09L22,30Z"
+            fill="#001964"
+        />
+    </g>
+</svg>
