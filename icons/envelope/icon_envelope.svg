@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <g class="icon-envelope">
+        <path
+            class="icon-envelope__container"
+            d="M54,10H10a4,4,0,0,0-4,4V50a4,4,0,0,0,4,4H54a4,4,0,0,0,4-4V14A4,4,0,0,0,54,10Zm0,40H10V14H54Z"
+        />
+        <polygon
+            class="icon-envelope__flap"
+            points="32.07 30.11 7.84 16.12 7.84 20.27 32.07 36 56.3 20.27 56.3 16.12 32.07 30.11"
+        />
+    </g>
+</svg>
