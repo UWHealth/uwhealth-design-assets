@@ -1,6 +1,6 @@
 {
   "name": "uwhealth-design-assets",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Central location for uwhealth.org design assets",
   "main": "tests.html",
   "scripts": {
