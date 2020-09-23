@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 40">
+    <g class="gfx-cta-panel-corner">
+        <polygon class="gfx-cta-panel-corner__blue-p"
+            points="0 1.08 0 40 22.47 40 0 1.08"
+            fill="#e2f7fa"
+        />
+        <polygon class="gfx-cta-panel-corner__blue"
+            points="47.87 40 41.36 28.72 0 28.72 0 40 47.87 40"
+            fill="#065dba"
+        />
+        <polygon class="gfx-cta-panel-corner__blue-d"
+            points="22.5 40 15.99 28.72 0 28.72 0 40 22.5 40"
+            fill="#001964"
+        />
+    </g>
+</svg>
