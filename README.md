@@ -1,11 +1,12 @@
-# uwhealth-design-assets
+# [uwhealth-design-assets](https://uwhealth.github.io/uwhealth-design-assets/tests.html)
 A central location for uwhealth.org design assets
+
+[Graphics and icon samples →](https://uwhealth.github.io/uwhealth-design-assets/tests.html)
+
+---
 
 ## Usage and intent
 Any icon or graphic in this repo should be considered final or nearly final. That said, the goal is to use this repository as a way to version control design assets and allow for easier distribution of changes as they come up.
-
-## Samples
-[Graphic and icon samples →](https://uwhealth.github.io/uwhealth-design-assets/tests.html)
 
 ## Development
 
