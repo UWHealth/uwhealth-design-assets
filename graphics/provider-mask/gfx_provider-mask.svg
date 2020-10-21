@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 31 30"
+>
+    <defs>
+        <pattern id="gfx_provider-image" height="100%" width="100%"
+            patternContentUnits="objectBoundingBox" viewBox="0 0 1 1"
+            preserveAspectRatio="xMidYMin slice">
+                <image height="1" width="1" preserveAspectRatio="xMaxYMin slice"
+                    xlink:href="https://resources.uwhealth.org/providers/Abushhiwa_Bakir_LMFT.jpg">
+                    <title>Provider Name</title>
+                </image>
+        </pattern>
+    </defs>
+    <g id="gfx_provder-mask">
+        <path class="border--blue"
+            d="M17.17,0H13.74A12,12,0,0,0,3.33,6L1.61,9a12,12,0,0,0,0,12l1.72,3a12,12,0,0,0,10.41,6h3.43a12,12,0,0,0,10.42-6l1.72-3a12,12,0,0,0,0-12L27.59,6A12,12,0,0,0,17.17,0Z"
+            fill="#b1f5ff"/>
+        <path
+            class="border--blue-2"
+            d="M17.15.19H13.77A11.86,11.86,0,0,0,3.48,6.13L1.79,9.06a11.89,11.89,0,0,0,0,11.88l1.69,2.93a11.86,11.86,0,0,0,10.29,5.94h3.38a11.86,11.86,0,0,0,10.29-5.94l1.69-2.93a11.89,11.89,0,0,0,0-11.88L27.44,6.13A11.86,11.86,0,0,0,17.15.19Z"
+            fill="#f0fdff"/>
+        <path
+            class="provider-mask__face"
+            d="M17.1.69H13.82A11.48,11.48,0,0,0,3.88,6.43L2.25,9.26a11.48,11.48,0,0,0,0,11.48l1.63,2.83a11.48,11.48,0,0,0,9.94,5.74H17.1A11.48,11.48,0,0,0,27,23.57l1.63-2.83a11.48,11.48,0,0,0,0-11.48L27,6.43A11.48,11.48,0,0,0,17.1.69Z"
+            fill="url(#gfx_provider-image)"
+        />
+    </g>
+</svg>
