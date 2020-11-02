@@ -10,6 +10,7 @@ const IN = path.resolve(BUILD, 'tests.html');
 const OUT = path.resolve(BASE, 'tests.html');
 const WATCH = ['./build/*.*', './graphics/**/*.*', './icons/**/*.*'];
 const SVGs = ['./graphics/**/*.svg', './icons/**/*.svg'];
+const DIST = `${process.cwd()}/dist/`;
 
 const posthtml_opts = {
     modules: {
@@ -44,8 +45,9 @@ const choki_opts = {
 };
 
 function collectSVGs() {
+    let didError = false;
+    const imports = [];
     const svgFiles = fg.sync(SVGs);
-    const DIST = `${process.cwd()}/dist/`;
 
     const files = svgFiles.map((file) => {
         const fileName = path.basename(file, '.svg');
@@ -54,7 +56,6 @@ function collectSVGs() {
         const importName = fileName
                 .replace(/([_\- \.])(\w)/g, (m, p1, p2) => p2.toUpperCase())
                 .replace(/(^\w|\s\w)/g, m => m.toUpperCase()); //first letter-uppercase
-        // console.log(fileName);
 
         return {
             src: file,
@@ -63,19 +64,27 @@ function collectSVGs() {
         }
     });
 
-    const imports = [];
-
-    files.forEach(async ({ src, fileName, importName }) => {
+    // Write out SVG files to DIST
+    files.forEach(({ src, fileName, importName }) => {
         const outPath = path.resolve(DIST, `${fileName}.svg`);
+        // Add imports to import array
         imports.push(`export * as ${importName} from "./${fileName}.svg"`);
-        return await fs.copy(src, outPath).catch(err => { console.error(err); })
+
+        return fs.copySync(src, outPath, null, (err) => {
+            if (err) { console.error(err); didError = true; }
+        })
     });
 
+    // Write out index.js that imports all svgs
     fs.outputFileSync(
         path.resolve(DIST, 'index.js'),
         imports.join("\n")
     );
 
+    if (!didError) {
+        return console.info(colors.green(`Successfully wrote ${files.length} SVGs!`));
+    }
+    return console.info(colors.red(`Error writing out SVGs.`))
 }
 
 function processHtml() {
