@@ -2,7 +2,7 @@
   "name": "uwhealth-design-assets",
   "version": "1.0.3",
   "description": "Central location for uwhealth.org design assets",
-  "main": "tests.html",
+  "main": "dist/index.js",
   "sideEffects": false,
   "scripts": {
     "start": "node build/build-and-watch.js",
@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/UWHealth/uwhealth-design-assets#readme",
   "devDependencies": {
-    "@svgr/core": "^5.4.0",
     "chokidar": "^3.4.0",
     "colors": "^1.4.0",
     "fast-glob": "^3.2.4",
