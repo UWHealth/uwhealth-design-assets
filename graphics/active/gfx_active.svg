@@ -4,7 +4,7 @@
     <defs>
     <!-- embedded svgs to allow for different varied scaling -->
         <mask id="active-indicator__mask">
-            <rect fill="white" width="100%" height="100%" style="fill:white"/>
+            <rect fill="white" width="100%" height="100%"/>
             <g class="active-indicator__mask-polygons" fill="black">
                 <svg
                     viewBox="0 0 2 4"

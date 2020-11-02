@@ -1,0 +1,9 @@
+<svg class="gfxHero gfxHero--generic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306 256" preserveAspectRatio="xMidYMin slice">
+  <rect x="142.7" width="163.3" height="54" fill="#e2f7fa"/>
+  <polygon points="140.7 54 171.88 0 109.52 0 140.7 54" fill="#e2f7fa"/>
+  <polygon points="306 54 140.7 54 -4 304.63 306 304.63 306 54" fill="#ee2842"/>
+  <path d="M306,148H186.66a51.31,51.31,0,0,0-44.42,25.65L66.7,304.5H306Z" fill="#c5050c"/>
+  <path d="M306,200H230.55a32,32,0,0,0-27.71,16l-51.05,88.42H306Z" fill="#ee2842"/>
+  <polygon points="306 -0.04 171.9 -0.04 140.7 54 171.9 108.04 306 108.04 306 54 306 -0.04" fill="#065dba"/>
+  <path d="M206.16,167.39a18,18,0,0,0,15.54,9H306V54H140.7Z" fill="#001964"/>
+</svg>
