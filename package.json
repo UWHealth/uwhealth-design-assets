@@ -2,13 +2,19 @@
   "name": "uwhealth-design-assets",
   "version": "1.0.4",
   "description": "Central location for uwhealth.org design assets",
-  "main": "dist/index.js",
+  "module": "./svg/index.js",
+  "main": "./index.js",
+  "exports": {
+    "./*": "./svg/*.svg",
+    "./svg/*": "./svg/*.svg",
+    ".": "./svg/index.js"
+  },
   "sideEffects": false,
   "scripts": {
     "start": "node build/build-and-watch.js",
     "build": "node build/build.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "node build/build.js"
+    "postinstall": "node build/build.js"
   },
   "repository": {
     "type": "git",
@@ -22,13 +28,14 @@
   "homepage": "https://github.com/UWHealth/uwhealth-design-assets#readme",
   "devDependencies": {
     "chokidar": "^3.4.0",
-    "colors": "^1.4.0",
-    "fast-glob": "^3.2.4",
-    "fs-extra": "^9.0.1",
     "posthtml": "^0.13.1",
     "posthtml-inline-assets": "^3.1.0",
     "posthtml-inline-svg": "^0.2.0",
     "posthtml-modules": "^0.6.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "colors": "^1.4.0",
+    "fast-glob": "^3.2.4",
+    "fs-extra": "^9.0.1"
+  }
 }
