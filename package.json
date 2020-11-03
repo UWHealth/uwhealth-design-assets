@@ -5,8 +5,8 @@
   "module": "./svg/index.js",
   "main": "./index.js",
   "exports": {
-    "./*": "./svg/*.svg",
     "./svg/*": "./svg/*.svg",
+    "./*": "./svg/*.svg",
     ".": "./svg/index.js"
   },
   "sideEffects": false,
