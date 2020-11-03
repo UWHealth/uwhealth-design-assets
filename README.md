@@ -8,6 +8,32 @@ A central location for uwhealth.org design assets
 ## Usage and intent
 Any icon or graphic in this repo should be considered final or nearly final. That said, the goal is to use this repository as a way to version control design assets and allow for easier distribution of changes as they come up.
 
+### Usage as a node module
+
+**Importing**
+On install, all SVGs are copied to a `./svg/` folder. They can be accessed using one of the following: 
+
+```js
+// ES Module
+import svgName from 'uwhealth-design-assets/svg/svg_name.svg';
+
+//Common JS (note the use of .default)
+const svgName = require('uwhealth-design-assets/svg/svg_name.svg').default
+```
+
+**Next JS configuration**
+Since this repo exports raw `.svg` files, you will need a way to instruct next and webpack on how to import them. This repo contains a `next-plugin.js` file that you can import and apply to your `next.config.js`.
+
+```js
+// Your project's next.config.js
+const withDesignAssets = require('uwhealth-design-assets/next-plugin.js');
+//...
+module.exports = () => withDesignAssets({
+    // Rest of your next config
+});
+
+```
+
 ## Development
 
 ### SVG development
