@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = (nextConfig, webpackConfig, isServer) => {
     webpackConfig.module.rules.push(
         {
@@ -12,5 +14,13 @@ module.exports = (nextConfig, webpackConfig, isServer) => {
                 name: '[name].svg'
             }
         }
+    );
+
+    // Necessary until webpack 5, where we can use module subpath resolution
+    webpackConfig.resolve.alias['uwhealth-design-assets'] = path.resolve(
+        path.dirname(
+            path.resolve('uwhealth-design-assets')
+        ),
+        'svg'
     );
 };
