@@ -36,6 +36,6 @@
             width="98%" height="5.5%"
         />
         <use xlink:href="#hex-bar__left" />
-        <use xlink:href="#hex-bar__right" /> -->
+        <use xlink:href="#hex-bar__right" />
      </svg>
 </svg>

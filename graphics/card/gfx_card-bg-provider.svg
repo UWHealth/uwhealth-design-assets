@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 88">
-    <g class="gfx_card-bg-provider">
+    <g class="gfx-card-bg-provider">
         <path
-            class="gfx_card-bg-provider__hex-shape"
+            class="gfx-card-bg-provider__hex-shape"
             d="M0,61.64H15.18L39.91,18.79a1.54,1.54,0,0,0,0-1.58L30,0H0Z"
             fill="#e2f7fa"
         />
