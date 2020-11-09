@@ -1,0 +1,30 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="64">
+    <!--
+        This uses a marker to create the arrow:
+        - To control the size of the arrow, use stroke-width
+        - To control the color, use color
+    -->
+    <defs>
+        <marker
+            id="gfx-arrow-stretch__head"
+            viewBox="0 0 61.3 64"
+            refX="59.5" refY="32"
+            markerWidth="24" markerHeight="24"
+            markerUnits="strokeWidth"
+        >
+            <polygon
+                fill="currentColor"
+                points="37.91 14.19 36 16.5 53.57 32 36 47.5 37.91 49.81 61.13 32 37.91 14.19"
+            />
+        </marker>
+    </defs>
+    <g class="gfx-arrow-stretch">
+        <line
+            class="gfx-arrow-stretch__arrow"
+            stroke="currentColor" stroke-width="3"
+            x1="0" x2="95%"
+            y1="50%" y2="50%"
+            marker-end="url(#gfx-arrow-stretch__head)"
+        />
+    </g>
+</svg>
