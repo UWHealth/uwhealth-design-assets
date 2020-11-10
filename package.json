@@ -6,6 +6,7 @@
   "main": "./index.js",
   "exports": {
     "./svg/*": "./svg/*.svg",
+    "./next-plugin*": "./next-plugin.js",
     "./*": "./svg/*.svg",
     ".": "./svg/index.js"
   },
