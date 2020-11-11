@@ -140,6 +140,10 @@ article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shad
     fill: #0051B1;
 }
 
+section > section {
+    flex-basis: 12%;
+}
+
 .resize--icon {
     width: 48px;
     min-width: 21.333px;
@@ -176,6 +180,7 @@ main {
 .card h2 {
     margin-top: 0;
     height: 3.8rem;
+    font-size: 1.3125em;
 }
 
 .card details {
@@ -569,13 +574,34 @@ main {
             
         </h2>
         <div class="resize  resize--icon" style="">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" style=""><g class="icon-wifi"><path class="icon-wifi__wave icon-wifi__wave-top" d="M8.86,27.86a2,2,0,0,1-1.41-.59,2,2,0,0,1,0-2.83,34.72,34.72,0,0,1,49.1,0,2,2,0,0,1,0,2.83,2,2,0,0,1-2.83,0,30.71,30.71,0,0,0-43.44,0A2,2,0,0,1,8.86,27.86Z"></path><path class="icon-wifi__wave icon-wifi__wave-bottom" d="M19,38a2,2,0,0,1-1.42-.59A2,2,0,0,1,17,36a2,2,0,0,1,.58-1.42,20.45,20.45,0,0,1,28.86,0A2,2,0,0,1,47,36a2,2,0,0,1-.58,1.41,2,2,0,0,1-2.83,0,16.44,16.44,0,0,0-23.2,0A2,2,0,0,1,19,38Z"></path><path class="icon-wifi__base" d="M37.83,44.68a9.39,9.39,0,0,0-11.66,0A.52.52,0,0,0,26,45a.5.5,0,0,0,.15.38l5.52,5.52a.48.48,0,0,0,.7,0l5.52-5.52A.54.54,0,0,0,38,45,.52.52,0,0,0,37.83,44.68Z"></path></g></svg>
+            <svg viewBox="0 0 64 64" style=""><g class="icon-wifi"><path class="icon-wifi__wave icon-wifi__wave-top" d="M8.86,27.86a2,2,0,0,1-1.41-.59,2,2,0,0,1,0-2.83,34.72,34.72,0,0,1,49.1,0,2,2,0,0,1,0,2.83,2,2,0,0,1-2.83,0,30.71,30.71,0,0,0-43.44,0A2,2,0,0,1,8.86,27.86Z"></path><path class="icon-wifi__wave icon-wifi__wave-bottom" d="M19,38a2,2,0,0,1-1.42-.59A2,2,0,0,1,17,36a2,2,0,0,1,.58-1.42,20.45,20.45,0,0,1,28.86,0A2,2,0,0,1,47,36a2,2,0,0,1-.58,1.41,2,2,0,0,1-2.83,0,16.44,16.44,0,0,0-23.2,0A2,2,0,0,1,19,38Z"></path><path class="icon-wifi__base" d="M37.83,44.68a9.39,9.39,0,0,0-11.66,0A.52.52,0,0,0,26,45a.5.5,0,0,0,.15.38l5.52,5.52a.48.48,0,0,0,.7,0l5.52-5.52A.54.54,0,0,0,38,45,.52.52,0,0,0,37.83,44.68Z"></path></g></svg>
         </div>
         
             <details>
                 <summary>Text test</summary>
                 <p class="icon-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" style=""><g class="icon-wifi"><path class="icon-wifi__wave icon-wifi__wave-top" d="M8.86,27.86a2,2,0,0,1-1.41-.59,2,2,0,0,1,0-2.83,34.72,34.72,0,0,1,49.1,0,2,2,0,0,1,0,2.83,2,2,0,0,1-2.83,0,30.71,30.71,0,0,0-43.44,0A2,2,0,0,1,8.86,27.86Z"></path><path class="icon-wifi__wave icon-wifi__wave-bottom" d="M19,38a2,2,0,0,1-1.42-.59A2,2,0,0,1,17,36a2,2,0,0,1,.58-1.42,20.45,20.45,0,0,1,28.86,0A2,2,0,0,1,47,36a2,2,0,0,1-.58,1.41,2,2,0,0,1-2.83,0,16.44,16.44,0,0,0-23.2,0A2,2,0,0,1,19,38Z"></path><path class="icon-wifi__base" d="M37.83,44.68a9.39,9.39,0,0,0-11.66,0A.52.52,0,0,0,26,45a.5.5,0,0,0,.15.38l5.52,5.52a.48.48,0,0,0,.7,0l5.52-5.52A.54.54,0,0,0,38,45,.52.52,0,0,0,37.83,44.68Z"></path></g></svg>
+                    <svg viewBox="0 0 64 64" style=""><g class="icon-wifi"><path class="icon-wifi__wave icon-wifi__wave-top" d="M8.86,27.86a2,2,0,0,1-1.41-.59,2,2,0,0,1,0-2.83,34.72,34.72,0,0,1,49.1,0,2,2,0,0,1,0,2.83,2,2,0,0,1-2.83,0,30.71,30.71,0,0,0-43.44,0A2,2,0,0,1,8.86,27.86Z"></path><path class="icon-wifi__wave icon-wifi__wave-bottom" d="M19,38a2,2,0,0,1-1.42-.59A2,2,0,0,1,17,36a2,2,0,0,1,.58-1.42,20.45,20.45,0,0,1,28.86,0A2,2,0,0,1,47,36a2,2,0,0,1-.58,1.41,2,2,0,0,1-2.83,0,16.44,16.44,0,0,0-23.2,0A2,2,0,0,1,19,38Z"></path><path class="icon-wifi__base" d="M37.83,44.68a9.39,9.39,0,0,0-11.66,0A.52.52,0,0,0,26,45a.5.5,0,0,0,.15.38l5.52,5.52a.48.48,0,0,0,.7,0l5.52-5.52A.54.54,0,0,0,38,45,.52.52,0,0,0,37.83,44.68Z"></path></g></svg>
+                    <span>Lorem ipsum</span>
+                </p>
+            </details>
+        </article>
+</section>
+
+            <section>
+    <article class="card">
+        <h2>
+            
+                Car Icon
+            
+        </h2>
+        <div class="resize  resize--icon" style="">
+            <svg viewBox="0 0 64 64" style=""><g class="icon-car"><path class="icon-car__headlights" d="M46,34H44a4,4,0,0,0,0,8h2a4,4,0,1,0,0-8ZM20,34H18a4,4,0,0,0,0,8h2a4,4,0,0,0,0-8Z"></path><path class="icon-car__tires" d="M50,50v0M14,50v0m38-4H48a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2V48a2,2,0,0,0-2-2ZM16,46H12a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2V48a2,2,0,0,0-2-2Z"></path><path class="icon-car__car" d="M53.73,26H53L50,13.65A2,2,0,0,0,48.08,12H15.92A2,2,0,0,0,14,13.65L11,26h-.71L6,33.4V42a8,8,0,0,0,8,8H50a8,8,0,0,0,8-8V33.4ZM17.54,16H46.46L48.9,26H15.1ZM54,42a4,4,0,0,1-4,4H14a4,4,0,0,1-4-4V34.47L12.58,30H51.42L54,34.47Z"></path><path class="icon-car__mirrors" d="M53.42,23,52,25.46V28h4a2,2,0,0,0,2-2V23ZM6,23v3a2,2,0,0,0,2,2h4V26l-1.73-3Z"></path></g></svg>
+        </div>
+        
+            <details>
+                <summary>Text test</summary>
+                <p class="icon-text">
+                    <svg viewBox="0 0 64 64" style=""><g class="icon-car"><path class="icon-car__headlights" d="M46,34H44a4,4,0,0,0,0,8h2a4,4,0,1,0,0-8ZM20,34H18a4,4,0,0,0,0,8h2a4,4,0,0,0,0-8Z"></path><path class="icon-car__tires" d="M50,50v0M14,50v0m38-4H48a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2V48a2,2,0,0,0-2-2ZM16,46H12a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2V48a2,2,0,0,0-2-2Z"></path><path class="icon-car__car" d="M53.73,26H53L50,13.65A2,2,0,0,0,48.08,12H15.92A2,2,0,0,0,14,13.65L11,26h-.71L6,33.4V42a8,8,0,0,0,8,8H50a8,8,0,0,0,8-8V33.4ZM17.54,16H46.46L48.9,26H15.1ZM54,42a4,4,0,0,1-4,4H14a4,4,0,0,1-4-4V34.47L12.58,30H51.42L54,34.47Z"></path><path class="icon-car__mirrors" d="M53.42,23,52,25.46V28h4a2,2,0,0,0,2-2V23ZM6,23v3a2,2,0,0,0,2,2h4V26l-1.73-3Z"></path></g></svg>
                     <span>Lorem ipsum</span>
                 </p>
             </details>

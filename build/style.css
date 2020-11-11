@@ -132,6 +132,10 @@ article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shad
     fill: #0051B1;
 }
 
+section > section {
+    flex-basis: 12%;
+}
+
 .resize--icon {
     width: 48px;
     min-width: 21.333px;
@@ -168,6 +172,7 @@ main {
 .card h2 {
     margin-top: 0;
     height: 3.8rem;
+    font-size: 1.3125em;
 }
 
 .card details {
