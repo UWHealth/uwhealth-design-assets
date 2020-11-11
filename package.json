@@ -5,8 +5,9 @@
   "module": "./svg/index.js",
   "main": "./index.js",
   "exports": {
+    "./next-plugin": "./next-plugin.js",
+    "./next-plugin.js": "./next-plugin.js",
     "./svg/*": "./svg/*.svg",
-    "./next-plugin*": "./next-plugin.js",
     "./*": "./svg/*.svg",
     ".": "./svg/index.js"
   },
