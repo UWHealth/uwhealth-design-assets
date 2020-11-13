@@ -7,8 +7,7 @@
   "exports": {
     "./next-plugin": "./next-plugin.js",
     "./next-plugin.js": "./next-plugin.js",
-    "./svg/*": "./svg/*.svg",
-    "./*": "./svg/*.svg",
+    "./svg/*": "./svg/",
     ".": "./svg/index.js"
   },
   "sideEffects": false,
