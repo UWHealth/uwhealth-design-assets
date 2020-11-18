@@ -1,0 +1,28 @@
+<svg id="gfx-hero-condition" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 306 292" preserveAspectRatio="xMidYMin slice">
+  <defs>
+    <linearGradient id="gfx-hero__gradient" x1="0%" x2="0%" y1="100%" y2="0%">
+      <stop offset="0" stop-color="#b1f5ff" stop-opacity="0"/>
+      <stop offset="0.28" stop-color="#b1f5ff" stop-opacity="0.14"/>
+      <stop offset="0.41" stop-color="#b1f5ff" stop-opacity="0.25"/>
+      <stop offset=".54" stop-color="#b1f5ff" stop-opacity="0.4"/>
+      <stop offset=".92" stop-color="#b1f5ff" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#b1f5ff"/>
+    </linearGradient>
+  </defs>
+  <g class="gfx-hero gfx-hero-condition">
+    <polygon class="gfx-hero__secondary-bg" points="118.58 98 -60.4 408 306 408 306 98 118.58 98" fill="url(#gfx-hero__gradient)"/>
+    <g>
+        <g class="gfx-hero__triangle">
+            <polygon points="60.84 0 118 99 181.7 99 181.7 0 60.84 0" fill="#ee2842"/>
+            <path d="M120.1,0a24.83,24.83,0,0,0,.23,24.42l20.36,35.27L175.16,0Z" fill="#e00e2a"/>
+        </g>
+        <polygon points="175.16 0 118 99 306 99 306 0 175.16 0" fill="#001964"/>
+        <path d="M306,100V48.3H188.59a9,9,0,0,0-7.79,4.5L153.55,100Z" fill="#092884"/>
+        <path d="M306,100V58.44H221.69a18,18,0,0,0-15.61,9L187.29,100Z" fill="#065dba"/>
+        <path d="M175.18,186H306V99H118l46.79,81A12,12,0,0,0,175.18,186Z" fill="#065dba"/>
+        <path d="M200.61,121a18,18,0,0,0,15.61,9H306V99H187.91Z" fill="#1c7fe3"/>
+
+        <path d="M118,99l53.88,93.33a4.83,4.83,0,0,0,4.18,2.41H306V38H153.22Z" fill="url(#hero-image)"/>
+    </g>
+  </g>
+</svg>
