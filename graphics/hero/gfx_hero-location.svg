@@ -1,4 +1,4 @@
-<svg id="gfx-hero-condition" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 306 200" preserveAspectRatio="xMidYMin slice">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 306 206" preserveAspectRatio="xMidYMin slice">
     <defs>
         <linearGradient id="gfx-hero__gradient" x1="0%" x2="0%" y1="100%" y2="0%">
             <stop offset="0" stop-color="#e2f7fa" stop-opacity="0"/>
@@ -6,8 +6,7 @@
             <stop offset="1" stop-color="#b1f5ff"/>
         </linearGradient>
     </defs>
-    <g class="gfx-hero gfx-hero-condition">
-
+    <g class="gfx-hero gfx-hero-location">
         <polygon
             opacity=".9"
             class="gfx-hero__secondary-bg"
