@@ -1,0 +1,24 @@
+<svg xnlns="http://www.w3.org/2000/svg">
+
+    <svg viewBox="0 0 64 64" preserveAspectRatio="xMinYMax slice">
+        <clipPath id="sw">
+            <polygon points="0 0 0 47.41 9.58 64 64 64 64 0 0 0"/>
+        </clipPath>
+    </svg>
+    <svg viewBox="0 0 64 64" width="100%" height="100%" preserveAspectRatio="xMaxYMax slice">
+        <clipPath id="se">
+            <polygon points="64 47.41 64 0 0 0 0 64 54.42 64 64 47.41"/>
+        </clipPath>
+    </svg>
+    <svg viewBox="0 0 64 64" preserveAspectRatio="xMinYMin slice">
+        <clipPath id="nw">
+            <polygon points="8.42 0 0 14.59 0 64 64 64 64 0 8.42 0"/>
+        </clipPath>
+    </svg>
+    <svg viewBox="0 0 64 64" preserveAspectRatio="xMaxYMin slice">
+        <clipPath id="ne">
+            <polygon points="54.73 0 0 0 0 64 64 64 64 16.05 54.73 0" />
+        </clipPath>
+    </svg>
+</svg>
+
