@@ -1,0 +1,42 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 120 70"
+    preserveAspectRatio="xMinYMin slice"
+>
+  <defs>
+        <linearGradient
+            id="gfx-cta-panel-skrim"
+            x1="0" x2="1"
+            y1="0" y2=".15"
+            gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#14171e"/>
+            <stop offset="0.1" stop-color="#14171e"/>
+            <stop offset="0.25" stop-color="#14171e" stop-opacity="0.71"/>
+            <stop offset="0.7" stop-color="#14171e" stop-opacity="0"/>
+        </linearGradient>
+        <pattern
+            id="gfx-cta-hex"
+            width="8.75" height="7.5"
+            patternUnits="userSpaceOnUse"
+            viewBox="0 0 60.58 37.5">
+            <rect fill="#001964" x="-20" y="-10" height="100%" width="100%"/>
+            <g opacity=".25" fill="none" stroke="#B1F5FF" stroke-miterlimit="10" stroke-width=".5">
+                <polygon points="30.33 1.28 15.25 9.98 15.25 27.4 30.33 36.1 45.41 27.4 45.41 9.98" />
+                <polygon points="15.19 -7.37 0.11 1.33 0.11 18.75 15.19 27.45 30.27 18.75 30.27 1.33"/>
+                <polygon points="45.4 -7.37 30.32 1.33 30.32 18.75 45.4 27.45 60.48 18.75 60.48 1.33" />
+                <polygon points="45.4 10 30.32 18.71 30.32 36.12 45.4 44.82 60.48 36.12 60.48 18.71" />
+                <polygon points="30.33 -16.09 15.25 -7.39 15.25 10.03 30.33 18.73 45.41 10.03 45.41 -7.39"/>
+                <polygon points="30.33 18.79 15.25 27.5 15.25 44.91 30.33 53.62 45.41 44.91 45.41 27.5" />
+                <polygon points="15.19 10 0.11 18.71 0.11 36.12 15.19 44.82 30.27 36.12 30.27 18.71"/>
+            </g>
+        </pattern>
+    </defs>
+
+    <g class="gfx-cta-panel-bg">
+        <rect class="gfx-cta-panel-bg__skrim" x="35" width="80" height="100%" opacity="0.7" fill="url(#gfx-cta-panel-skrim)"/>
+        <polygon class="gfx-cta-panel-bg__triangle" points="23.27 70 55.6 70 40.59 44 38.28 44" fill="#065DBA"/>
+        <polygon class="gfx-cta-panel-bg__pattern" points="65.99 0 -42 0 -42 70 25.58 70" fill="url(#gfx-cta-hex)" />
+    </g>
+    <polygon class="gfx-cta-panel-bg__top-triangle" points="0 27.71 8 13.86 0 0" fill="#b1f5ff" transform="translate(0, -13.86)"/>
+</svg>
