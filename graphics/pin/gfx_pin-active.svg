@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+    <defs>
+        <radialGradient id="gfx-pin-shadow" cx="31.92" cy="28.89" r="30.9" gradientTransform="translate(-1.05 7.89) scale(1.04 0.94)" gradientUnits="userSpaceOnUse">
+            <stop offset="0.17" stop-color="#001964" stop-opacity="0.25"/>
+            <stop offset="1" stop-color="#001964" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+    <g class="gfx_pin-active">
+        <ellipse class="gfx-pin__shadow"
+            fill="url(#gfx-pin-shadow)"
+            cx="32" cy="35" rx="32" ry="29"
+        />
+        <path class="gfx-pin__outline"
+            fill="#fff" opacity="0.4"
+            d="M32,8c10.09,0,18,8.16,18,18.57,0,10.65-9.4,18.72-16.26,24.61L32,52.72l-1.71-1.48C23.39,45.34,14,37.25,14,26.57,14,16.16,21.91,8,32,8m0-4C19.72,4,10,14,10,26.57,10,42,25.9,52.1,32,58.15,38.06,52.06,54,42,54,26.57,54,14,44.28,4,32,4Z"
+        />
+        <path class="gfx-pin__pin"
+            fill="#1b7fe3"
+            d="M32,8C21.91,8,14,16.16,14,26.57c0,10.68,9.39,18.77,16.25,24.67L32,52.72l1.78-1.54C40.6,45.29,50,37.22,50,26.57,50,16.16,42.09,8,32,8Z"
+        />
+        <path class="gfx-pin__circle"
+            fill="#b1f5ff"
+            d="M32,17a8,8,0,1,1-8,8,8,8,0,0,1,8-8Z"
+        />
+    </g>
+</svg>
