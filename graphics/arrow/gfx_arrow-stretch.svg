@@ -1,4 +1,4 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="64">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="64" fill="#065dba">
     <!--
         This uses a marker to create the arrow:
         - To control the size of the arrow, use stroke-width
