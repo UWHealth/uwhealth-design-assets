@@ -1,0 +1,12 @@
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#065dba">
+  <g class="icon-clinic">
+      <path class="icon-clinic__sign" 
+        d="M33.65,16h-3.3a.6.6,0,0,0-.6.6v3.15H26.6a.6.6,0,0,0-.6.6v3.3a.6.6,0,0,0,.6.6h3.15V27.4a.6.6,0,0,0,.6.6h3.3a.6.6,0,0,0,.6-.6V24.25H37.4a.6.6,0,0,0,.6-.6v-3.3a.6.6,0,0,0-.6-.6H34.25V16.6a.6.6,0,0,0-.6-.6Z"/>
+      <path class="icon-clinic__sign" 
+        d="M42,14V30H22V14H42m1.84-4H20.31A2.32,2.32,0,0,0,18,12.31V31.69A2.32,2.32,0,0,0,20.31,34H44.06A1.94,1.94,0,0,0,46,32.06V12.16A2.16,2.16,0,0,0,43.84,10Z"/>
+      <path class="icon-clinic__building" 
+        d="M46,20h8v6H46v4h6V50H12V30h6l0-4H10V20h8V16H6V28l2,2V50H6v4H58V50H56V30l2-2V16H46ZM18,30"/>
+      <polygon class="icon-clinic__doors"
+        points="34 38 30 38 22 38 22 50 26 50 26 42 30 42 30 50 34 50 34 42 38 42 38 50 42 50 42 38 34 38"/>
+  </g>
+</svg>

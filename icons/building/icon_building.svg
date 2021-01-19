@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#065dba">
+  <g class="icon-building">
+    <path d="M58,22V12H6V22.24l2,1.15V48H6v4H58V48H56V23.33ZM10,16H54v4H10ZM42,48H36V36h6Zm4,0V32H32V48H12V24H52V48Z"/>
+    <rect x="16" y="28" width="12" height="8"/>
+  </g>
+</svg>
