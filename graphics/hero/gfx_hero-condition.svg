@@ -22,7 +22,7 @@
         <path d="M181.18,188H306V101H124l46.79,81A12,12,0,0,0,181.18,188Z" fill="#065dba"/>
         <path d="M206.61,123a18,18,0,0,0,15.61,9H306V101H193.91Z" fill="#1c7fe3"/>
 
-        <path d="M124,101l53.54,92.74a6,6,0,0,0,5.2,3H306V40H159.22Z" fill="url(#hero-image)"/>
+        <path class="gfx-hero__image" d="M124,101l53.54,92.74a6,6,0,0,0,5.2,3H306V40H159.22Z" fill="url(#hero-image)"/>
     </g>
   </g>
 </svg>

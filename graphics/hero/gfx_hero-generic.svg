@@ -1,34 +1,10 @@
-<svg class="gfx-generic-hero" 
-  xmlns="http://www.w3.org/2000/svg" 
-  viewBox="0 0 1400 1064"
-  preserveAspectRatio="xMinYMin slice">
-  <!-- Red bottom -->
-  <svg class="hero__movable gfx-generic-hero__bottom" 
-      viewBox="0 0 1400 1064">
-      <polygon class="gfx-generic-hero__blue-l fill--blue-l" 
-          points="475.63 -642.8 475.63 -642.8 -42.97 -642.8 475.63 259.55 1463.74 259.55 1463.74 -642.8 475.63 -642.8" 
-          fill="#e2f7fa"/>
-      <polygon class="gfx-generic-hero__red-v fill--red-v" 
-          points="625.09 -0.52 -52.53 1178.52 625.09 1178.52 625.09 1178.57 1462.94 1178.57 1462.94 -0.52 625.09 -0.52" 
-          fill="#ee2842"/>
-      <path class="gfx-generic-hero__red fill--red" 
-          d="M1462.94,662.17H646.46a258.78,258.78,0,0,0-224.1,129.38l-223.42,387h1264Z" 
-          fill="#c5050c"/>
-      <path class="hero__toggle gfx-generic-hero__red-v fill--red-v" 
-          d="M1404.92,875h-597a159,159,0,0,0-137.74,79.52l-129.31,224h864.05Z" 
-          fill="#ee2842"/>
-  </svg>
-  <!-- Blue top -->
-  <svg viewBox="0 0 1400 1064"
-      class="hero__fixed gfx-generic-hero__top">
-      <polygon class="gfx-generic-hero__blue-l fill--blue-l" 
-          points="475.63 -642.8 475.63 -642.8 -42.97 -642.8 475.63 259.55 1463.74 259.55 1463.74 -642.8 475.63 -642.8" 
-          fill="#e2f7fa"/>
-      <path class="gfx-generic-hero__blue-d fill--blue-d" 
-          d="M475.63,259.55,771.08,771.28A65.76,65.76,0,0,0,828,804.16h635.71V259.55Z" 
-          fill="#001964"/>
-      <path class="gfx-generic-hero__blue fill--blue" 
-          d="M475.63,259.55,641.53-27.79a83.07,83.07,0,0,1,72-41.54h750.41V259.55Z" 
-          fill="#065dba"/>
-  </svg>
+<svg class="gfxHero gfxHero--generic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306 206" preserveAspectRatio="xMidYMin slice">
+    <g class="gfx-hero--generic gfx-hero">
+        <polygon points="109.52 0.04 140.7 54.04 142.7 50.58 142.7 54.04 306 54.04 306 0.04 109.52 0.04" fill="#e2f7fa"/>
+        <polygon points="306 54.04 140.7 54.04 -72.26 422.9 306 422.9 306 54.04" fill="#ee2842"/>
+        <path d="M306,148H210a89.82,89.82,0,0,0-77.76,44.9L0,422H306Z" fill="#c5050c"/>
+        <path d="M306,200H260.4a67.67,67.67,0,0,0-58.62,33.85l-108,187H306Z" fill="#ee2842"/>
+        <polygon points="306 0 171.9 0 140.7 54.04 171.9 108.08 306 108.08 306 54.04 306 0" fill="#065dba"/>
+        <path d="M206.16,167.43a18,18,0,0,0,15.54,9H306V54H140.7Z" fill="#001964"/>
+    </g>
 </svg>
