@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 306 206"
+    fill="#19505E"
+    opacity=".08"
+>
+    <defs>
+        <pattern
+            id="hex-dots__pattern"
+            width="13.893" height="7.924"
+            patternTransform="translate(-2.5 4.1)"
+            patternUnits="userSpaceOnUse"
+            viewBox="0 0 13.893 7.924"
+        >
+            <polygon
+                points="9.102 3.968 7.683 3.968 6.973 5.197 7.683 6.426 9.102 6.426 9.812 5.197 9.102 3.968"
+            />
+            <polygon
+                points="2.154 0.001 0.735 0.001 0.025 1.23 0.735 2.459 2.154 2.459 2.863 1.23 2.154 0.001"
+            />
+        </pattern>
+    </defs>
+    <g class="gfx-hex-dots">
+        <path
+            d="M280,102V94h12.5V90H287V87H266v3H253V83h20V75H246V71H225V63H204V59h55V54.69h-6V43h-7.209v8H225V43H204V31H169V26.452h-6V39h13v8h21V59H183V75h-7V59h-7V51h-6v8H149v
+            4H121V59h28V55h-7V43H121V31H86V26.452H79V39h7V35h7V47h21V59H101V75H92V59H86V50H79v9H65V55H58V67h7v4H79v4H65V87H58V83H51v3H44v4H58v5H37V86H30V75H24V86H16v4H31v12H65v
+            8h7V91h7v19H72v8H58v-8H51v-4H23v4h7v12h7v-8h8v12H80v12h27v12h7v-8h14v-8h-7v-8h14v12h14V126h14v8h6v12h7v-8h14v16h7V142h
+            7v12h28v-4h-7v-4H211V134H183v-4H169V118H149v-4h41v16h14v-4h7v-4H197V106h14v12h7v8h7v8h14v-4h48v-4h-7v-8H266v-4h-7V102h7V94h7v8ZM93,
+            87h7V98H93Zm21,47H100v-4H86v-8H79v-8h28v16h7Zm0-36h-7V87h7Zm14,20h-7v-4h7Zm0-31h-7V79h7Zm7-12H114V71h21Zm28,35h-7V92h7Zm0-35h-7V71h7Zm34-5h21v5H197Zm0,
+            24H176V90h21Zm-7-7V82h21v5Zm21,12V94h28v12h-7V99Zm35,27H232v-8h14ZM44,63v4h7V63ZM10,102v8h6v-4h7v-4ZM51,71h7V67H51Zm202,0h34V63H273V54.69h-7V63H253Zm13,
+            67h7v-4h-7ZM65,130H52v4h8v16H79v-4H93v-4H65Zm63,24h7v-4h-7Zm-7-8v4h7v-4Zm14,4h7v4h14v-8h7v-4H135Zm-91,4h7v-4H44Z"
+            fill="url(#hex-dots__pattern)"
+        />
+    </g>
+</svg>
